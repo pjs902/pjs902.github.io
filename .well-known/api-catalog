@@ -1,0 +1,14 @@
+{
+  "name": "pjs902.github.io API catalog",
+  "description": "This site is primarily static and does not expose a public programmable API.",
+  "resources": [
+    {
+      "type": "service-doc",
+      "href": "/docs/api/"
+    },
+    {
+      "type": "sitemap",
+      "href": "/sitemap.xml"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/pdf/
+Disallow: /assets/sass/
+Disallow: /.git/
+
+Sitemap: https://pjs902.github.io/sitemap.xml

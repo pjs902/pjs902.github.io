@@ -17,6 +17,16 @@
   <lastmod>2024-08-11T01:30:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://pjs902.github.io/.well-known/api-catalog</loc>
+  <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://pjs902.github.io/docs/api/</loc>
+  <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
 
 
 </urlset>
