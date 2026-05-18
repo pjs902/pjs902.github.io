@@ -99,6 +99,7 @@
 	<!-- Nav -->
 	<nav id="nav" role="navigation" aria-label="Main navigation">
 		<ul class="container">
+			<li class="nav-name"><a href="#Home" style="font-weight:700; letter-spacing:0.01em;">Peter Smith</a></li>
 			<li><a href="#Home">Home</a></li>
 			<li><a href="#Research">Research</a></li>
 			<li><a href="#Publications">Publications</a></li>
@@ -144,85 +145,18 @@
 							globular clusters.
 						</p>
 					</div>
-					</div>
-					</div>
-					</article>
+				</div>
+				</div>
+				</article>
 
 		<!-- Research -->
 		<article id="Research" class="wrapper style1">
 			<div class="container">
 				<header>
 					<h2>My research interests:</h2>
-					<p>Dynamical modelling of dense star clusters.</p>
+					<p>Dynamical modelling of dense stellar systems.</p>
 				</header>
-				<!-- here just a few paragraphs about my work -->
-				<div>
-					<p>
-						I work on the internal dynamics of globular clusters, mostly by fitting
-						dynamical models to diverse observational data in order to constrain the
-						internal dynamical structure of these objects and the nature of the dark mass in
-						their centers.
-					</p>
-					<p>
-						The populations of stellar remnants and especially black holes that live in the
-						dense cores of globular clusters have important implications for cluster
-						evolution and as contributors to the gravitational wave signals that we now
-						routinely detect.
-
-						These remnants are difficult to observe directly, but their presence can be
-						inferred through their effects on the overall dynamics of the cluster. I use
-						dynamical models to fit the observed kinematics of globular clusters and infer
-						the presence of dark mass in the cores of these clusters as well as characterize
-						the nature of the dark mass.
-					</p>
-
-					<p>
-						In a recent paper from my Master's work, our group applied these dynamical
-						modelling techniques to a large sample of Milky Way globular clusters,
-						constraining their remnant fraction, black hole content, and several other
-						properties. As part of this project, I led the validation work, which involved
-						extracting realistic mock data from N-body models and then fitting the models to
-						the mock data, ultimately demonstrating the effectiveness of the methodology.
-
-					<div style="text-align: center; margin-bottom: 20px;">
-						<img src="images/BHs_inference.webp"
-							alt="A plot of the inferred black hole content of all 34 globular clusters in our sample"
-							style="width: 75%; border: 1px solid black; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); padding: 10px;"
-							loading="lazy" />
-						<p
-							style="background-color: #f0f0f0; border-radius: 5px; padding: 10px; margin-top: 10px; font-size: 0.9em; color: #333; display: inline-block;">
-							Here we show the inferred black hole content of all 34 clusters in our sample.
-						</p>
-					</div>
-					</p>
-
-					<p>
-						During my Undergraduate and Master's work I focused on using unconventional
-						data, namely pulsar timing data, as additional constraints on dynamical models. We
-						showed that, in clusters like 47 Tuc and Terzan 5, which have large populations
-						of millisecond pulsars, the pulsar timing data can actually replace the
-						conventional stellar kinematic data without compromising the precision of the
-						methodology. Here we show the inferred black hole content of 47 Tuc and Terzan 5
-						for three subsets of the data. We show that for 47 Tuc, the pulsar timing data
-						can replace the stellar kinematic data without compromising the precision of the
-						methodology. For Terzan 5, where the stellar kinematic data is lacking, the
-						pulsar timing data is essential for constraining the black hole content.
-					<div style="text-align: center; margin-bottom: 20px;">
-						<img src="images/BH_pulsar_inference.webp"
-							alt="Here we show the inferred BH content of 47 Tuc and Terzan 5 for three subsets of the data"
-							style="width: 75%; border: 1px solid black; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); padding: 10px;"
-							loading="lazy" />
-						<p
-							style="background-color: #f0f0f0; border-radius: 5px; padding: 10px; margin-top: 10px; font-size: 0.9em; color: #333; display: inline-block;">
-							Here we show the inferred black hole content of 47 Tuc and Terzan 5 for
-							three subsets of the data. We show that for 47 Tuc, the pulsar timing data
-							can replace the stellar kinematic data without compromising the precision of
-							the methodology. For Terzan 5, where the stellar kinematic data is lacking,
-							the pulsar timing data is essential for constraining the black hole content.
-						</p>
-					</div>
-					</p>
-				</div>
+				<div class="rp-grid" id="rp-grid"></div>
 			</div>
 		</article>
 
@@ -299,7 +233,7 @@
 					</p>
 				</header>
 			</div>
-			</article>
+		</article>
 
 		<!-- Contact -->
 		<article id="Contact" class="wrapper style4">
@@ -316,7 +250,7 @@
 							<li><a href="https://orcid.org/0000-0002-7489-5244" class="icon brands fa-orcid" rel="external"
 									aria-label="ORCID profile"><span class="label">Orcid</span></a></li>
 							<li><a href="https://scholar.google.ca/citations?user=dd8qWwUAAAAJ&hl=en"
-									class="icon brands fa-google-scholar" rel="external"
+									class="icon solid fa-graduation-cap" rel="external"
 									aria-label="Google Scholar profile"><span class="label">Google
 										Scholar</span></a></li>
 						</ul>
@@ -337,6 +271,23 @@
 		</article>
 	</main>
 
+	<div class="rp-modal" id="rp-modal" role="dialog" aria-modal="true" aria-labelledby="rp-modal-title">
+		<div class="rp-modal-inner" id="rp-modal-inner">
+			<button class="rp-modal-close" id="rp-modal-close" aria-label="Close project details">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+					stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+					<line x1="2" y1="2" x2="14" y2="14" />
+					<line x1="14" y1="2" x2="2" y2="14" />
+				</svg>
+			</button>
+			<div class="rp-modal-tags" id="rp-modal-tags"></div>
+			<h3 class="rp-modal-title" id="rp-modal-title"></h3>
+			<div class="rp-modal-body" id="rp-modal-body"></div>
+			<div class="rp-modal-figure" id="rp-modal-figure"></div>
+			<div class="rp-modal-links" id="rp-modal-links"></div>
+		</div>
+	</div>
+
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -344,6 +295,144 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+		(function ($) {
+			var projects = [
+				{
+					title: "Pulsar Timing as a Dynamical Probe",
+					tagline: "Constraining dark remnants in 47 Tuc and Terzan 5 using millisecond pulsar timing",
+					tags: ["Pulsars", "Globular Clusters"],
+					description: [
+						"We present a technin		 multimass equil			um dynamical mode				th					second pulsar timing data to characterise mas					ributions and dark remnant populations in Milky Way globular clusters — without requiring conv					al stellar kinematic observations.",
+						plied to 47 Tuc						ethod constrains the stellar - mass black hole population to 446 < span class= 'math-err' ><span>+75</span><span>−72</span></span > M☉, arguing against a large central intermediate - mass black hole.In Terzan 5 — a heavily obscured bulge cluster with the largest millisecond puls						lation in the Milky Way — stellar kinematics are too sparse to constrain the dynamics alone, making pulsar timing an essential probe."
+						],
+				figure: "images/BH_pulsar_inference.webp",
+				figureAlt: "Inferred black hole content of 47 Tuc and Terzan 5 for three data subsets",
+				links: [
+					{ label: "ADS Paper", url: "https://ui.adsabs.harvard.edu/abs/2024ApJ...975..268S/abstract" },
+					{ label: "arXiv", url: "https://a					rg/					07.06274" }
+				]
+		},
+			{
+				title: ACat: 3D Kinematics of Omega Centauri",
+						tagline: "Velocity dispersion, kinematic di					, anisotr						d energy equipartition in Omega Cen",
+				tags: ["Omega Centauri", "HST"],
+				description: ["Using the oMEGACat catalog — 1.4 million proper motion meas					ts				300				sp					copic radial velocities — we analysed the full 3D in					 kinematics of Omega Centauri, the Milky Way's most massive globular cluster and likely the stripped nu					of an accreted dwarf galaxy.",
+					e measured a ki						 distance of 5494 ± 61 pc, the most precise available, and found the velocity dispersion profile to be isotropic in the core with increasing radial anisotropy at larger radii.Metallicity shows no correlation with kinematics, indicating well- mixed stellar populations, while partial ener						partition decreases from the center outwards.These results will serve as a new reference for future dynamical modelling of the cluster, an effort which I will lead within the oMEGACat collaboration."
+						],
+		figure: null,
+			links: [
+				{ label: "ADS Paper", url: "https://ui.adsabs.harvard.edu/abs/2025arXiv250304903H/abstract" },
+				{ label: "arXiv", url: "https://arxiv.org/abs/2503.04903" }
+			]
+					},
+		{
+			title: "Multimass Modelling of MW Globular Clusters",
+				tagline: "Present-day blac					 po					ons across 34 					Way globu						sters",
+					tags: ["Globular Clusters", "Black Holes"],
+						description: [
+							"We apply mu						 dynamical models to 34 Milky Way globular clusters to chara					e 				 pr				-d					ck hole populations, using diverse observational const					 to probe the dark mass content of each system. Black hole mass fractions typically f					tween 0 and 1% of total cluster mass, with O					entauri a notab						ier requiring above 5%.",
+							"The results reveal a clear anti-correlation between black hole content and mass segregation among visible stars, and a positive correlation between remnant populations and cluster dynamical age — constraints that have direct implications for both cluster evolution and gravitational wave source formation channels. I led the						tion work, fitting multimass models to realistic mock data extracted from N-body simulations to establish the methodology's reliability."
+						],
+							figure: "images/BHs_inference.webp",
+								figureAlt: "Inferred black hole content of all 34 clusters in the sample",
+									links: [
+										{ label: "ADS Paper", url: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..331D/abstract" },
+										{ label: "arXiv", url: "https://arxiv.org/abs/2308.13037" }
+									]
+		},
+		{
+							tle					er Milky Way Dynamics with SDSS - V",
+			gline: "Probing inner Milky Way stellar populations and dynamics with Milky					apper spe						py",
+				tags: ["SDSS-V", "Milky Way"],
+					description: [
+						"As part of the SDSS-V colla						n, I contribute to the analysis of Milky Way Mapper data to 					st				 po				io					 kinematics in the inner Milky Way, leveraging 					rvey's wide-field multi-object spectroscopy.",
+						"This work targets the complex dynamical environmen					he inner Galaxy at scales and d					not previously 						ble due to heavy extinction, contributing to a growing picture of the Milky Way's structural and kinematic properties."
+					],
+						figure: null,
+							links: []
+		}
+				];
+
+		var $modal = $('#rp-modal');
+		var $inner = $						odal-inner');
+		var lastFocus;
+
+		function buildCards() {
+			var $grid = $('#rp-grid');
+			$.each(projects, function (i, p) {
+				$grid.append(
+					'<div class="rp-card" tabindex="0" role="button"' +
+					'     aria-label="View 					s f					 p.title + '"'								'     d				dx			+ i+			' +
+							'<div class="rp-car			tle">' + p.title + '</div>' +
+					iv class= "rp-cad			line" > ' + p.tagline + ' < ' +
+							'<div class="rp-c				ooter">View project <span aria-hidd					ue">&nbsp;&rar						n></div>' +
+					'</div>'
+				);
+			});
+		}
+	
+										n openModal(idx) {
+			var p = projects[idx];
+					lastF						document.activeElement;
+
+			$(dal - tags').html(
+						$.map(p.tags, function (t) { re						span class="rp-tag" > ' + t + '</span > '; }).join('')
+					); '#rp-modal-title').text(p.title);
+			$('#rp-modal-body').html(
+				$.map(p.description, functi						a) { retu					> ' 				a + 			>' 			oin('')
+			);
+			$('#rp-				-figure').html(
+				p.e
+					? '<img src="' + p.figure + "				"' + (p.figureAlt || '') +					ading="lazy">'
+							: ''
+			);
+			$('#rp-modal-links').html(
+				p.links.length
+										map				nks, function (l) {
+				return '<				f="' + l.url + '" class="r					" target="_blank" rel="external noopener">' +
+					'&#8599;&nbsp;' + l.label +				> ';						}).join('')
+							: ''
+												$modal						ss('is-open');
+				$inner[0].scrollTop = 0;
+				$('body').css('overflow', 'hidden'						setTi(fu				n() { $('#rp-modal-close')					();
+			}, 40);
+										unction closeModal() {
+					$moda							Class('is-open');
+				$('body').css('overflow', '');
+				if (lastFocus) lastFocus.focus();
+										unction trapFocus(e) {
+					if (!$mod						lass('is-ope						turn;				varf				ble = $inner.find('a[href], n, [tabindex]: not([tabind				1"])').filter(':visible');
+					var fi				 focusable.first()[0];
+					var last = focusable.last()[0];
+					e.e = 'Tab') {
+						if (e.sh				y && document.activeElement === t) { e.preventDefault(); last.f				); }
+						else if (!e.shiftKey && met			iveElement === last) { e				entDefault(); first.focus(); }
+					}
+				} $(function () {
+					buildCards();
+
+					$(document).on('click keydown', '.rp-card', function (e) {
+						(e.type === 'click' || e.key === r' || e.key === ' ') {
+						e.p				tDefault();
+						openM(this).data('idx'));
+				}
+					});
+
+			$('#rp-modal-close').on('click', closeModal);
+
+			al.on('click', function (e) {
+				if ($(e.target).is($modal)) closeModal();
+			});
+
+			$(docu.o			eyo			 function (e) {
+				if (e.key === E				' && $modal.hasClass('is - open')) closeModal();
+			});
+
+			r.on('keydown', trapFocus);
+		});
+			}(jQuery));
+	</script>
 
 	<style>
 		/* Screen reader only class for accessibility */
@@ -353,6 +442,260 @@
 			width: 1px;
 			height: 1px;
 			overflow: hidden;
+		}
+
+		/* ── Nav name left, links centered ── */
+		#nav li.nav-name {
+			position: absolute;
+			left: 1.5em;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		#nav li.nav-name a {
+			color: #fff;
+		}
+
+		/* ── Research Projects ── */
+		.rp-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 1.25rem;
+			margin-top: 2.5rem;
+		}
+
+		@media (max-width: 980px) {
+			.rp-grid {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		@media (max-width: 736px) {
+			.rp-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.rp-card {
+			position: relative;
+			text-align: left;
+			background: #fff;
+			border: 1px solid #e4e4e4;
+			border-radius: 4px;
+			padding: 1.5rem;
+			cursor: pointer;
+			transition: background 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.rp-card::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 2px;
+			background: #43B3E0;
+			transform: scaleX(0);
+			transform-origin: left;
+			transition: transform 0.3s ease;
+		}
+
+		.rp-card:hover,
+		.rp-card:focus-visible {
+			background: #f7f9fb;
+			border-color: #bdd6e8;
+			transform: translateY(-2px);
+			box-shadow: 0 8px 28px rgba(0, 0, 0, 0.10);
+			outline: none;
+		}
+
+		.rp-card:hover::before,
+		.rp-card:focus-visible::before {
+			transform: scaleX(1);
+		}
+
+		.rp-card-title {
+			font-size: 0.98rem;
+			font-weight: 600;
+			color: #2a2a2a;
+			line-height: 1.35;
+			margin-bottom: 0.55rem;
+		}
+
+		.rp-card-tagline {
+			font-size: 0.83rem;
+			color: #666;
+			line-height: 1.55;
+			flex: 1;
+			margin-bottom: 1.2rem;
+		}
+
+		.rp-card-footer {
+			border-top: 1px solid #eaeaea;
+			padding-top: 0.85rem;
+			font-size: 0.78rem;
+			color: #43B3E0;
+			display: flex;
+			align-items: center;
+			gap: 0.35rem;
+			transition: gap 0.2s;
+		}
+
+		.rp-card:hover .rp-card-footer,
+		.rp-card:focus-visible .rp-card-footer {
+			gap: 0.55rem;
+		}
+
+		/* ── Modal ── */
+		.rp-modal {
+			position: fixed;
+			inset: 0;
+			z-index: 10001;
+			background: rgba(0, 0, 0, 0.55);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 1.5rem;
+			opacity: 0;
+			pointer-events: none;
+			transition: opacity 0.22s ease;
+		}
+
+		.rp-modal.is-open {
+			opacity: 1;
+			pointer-events: all;
+		}
+
+		.rp-modal-inner {
+			position: relative;
+			background: #fff;
+			border: 1px solid #e0e0e0;
+			border-top: 2px solid #43B3E0;
+			border-radius: 5px;
+			padding: 2.25rem 2.5rem 2rem;
+			max-width: 680px;
+			width: 100%;
+			max-height: 90vh;
+			overflow-y: auto;
+			transform: translateY(14px);
+			transition: transform 0.22s ease;
+		}
+
+		.rp-modal.is-open .rp-modal-inner {
+			transform: translateY(0);
+		}
+
+		.rp-modal-close {
+			position: absolute !important;
+			top: 1rem !important;
+			right: 1.25rem !important;
+			background: none !important;
+			background-color: transparent !important;
+			background-image: none !important;
+			box-shadow: none !important;
+			text-shadow: none !important;
+			border: none !important;
+			border-radius: 0 !important;
+			padding: 0.25rem !important;
+			color: #aaa !important;
+			font-size: 1rem !important;
+			max-width: none !important;
+			cursor: pointer !important;
+			transition: color 0.15s !important;
+			display: flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			overflow: visible !important;
+		}
+
+		.rp-modal-close:hover {
+			color: #333 !important;
+			background: none !important;
+			background-color: transparent !important;
+		}
+
+		.rp-modal-close svg {
+			pointer-events: none;
+			display: block;
+		}
+
+		.math-err {
+			display: inline-flex;
+			flex-direction: column;
+			font-size: 0.72em;
+			line-height: 1.15;
+			vertical-align: middle;
+			margin: 0 0.05em;
+			text-align: center;
+		}
+
+		.rp-modal-tags {
+			display: none;
+		}
+
+		.rp-modal-title {
+			font-size: 1.3rem;
+			font-weight: 700;
+			color: #1a1a1a;
+			line-height: 1.3;
+			margin-bottom: 1.25rem;
+			padding-right: 2rem;
+		}
+
+		.rp-modal-body {
+			color: #555;
+			font-size: 0.88rem;
+			line-height: 1.75;
+		}
+
+		.rp-modal-body p+p {
+			margin-top: 0.8rem;
+		}
+
+		.rp-modal-figure {
+			margin-top: 2.25rem;
+			margin-bottom: 0.75rem;
+		}
+
+		.rp-modal-figure img {
+			width: 100%;
+			border-radius: 4px;
+			border: 1px solid #e4e4e4;
+			display: block;
+		}
+
+		.rp-modal-links {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.65rem;
+			margin-top: 1.75rem;
+			padding-top: 1.25rem;
+			border-top: 1px solid #eaeaea;
+		}
+
+		.rp-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.4rem;
+			font-family: 'Courier New', monospace;
+			font-size: 0.72rem;
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+			color: #43B3E0;
+			border: 1px solid #dde8ef;
+			border-radius: 3px;
+			padding: 0.45em 0.9em;
+			text-decoration: none;
+			transition: background 0.15s, border-color 0.15s;
+		}
+
+		.rp-link:hover {
+			background: rgba(67, 179, 224, 0.08);
+			border-color: #43B3E0;
+			text-decoration: none;
 		}
 	</style>
 
