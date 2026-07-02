@@ -13,6 +13,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
 	<link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
 	<script src="https://kit.fontawesome.com/fdbb45d95e.js" crossorigin="anonymous"></script>
 	<meta name="google-site-verification" content="cEtdj7oFOYCn8qRcGMspQ7A5FXVHisq3kn0WKPjHSBU" />
@@ -115,13 +118,15 @@
 				<div class="row">
 					<div class="col-4 col-5-large col-12-medium">
 						<!-- Insert a rounded image, stored at images/me.webp -->
-						<span class="image fit rounded">
-							<img src="images/me.webp" alt="A photo of me presenting results" style="border-radius: 50%;" loading="eager" />
-						</span>
+						<div class="hero-photo">
+							<span class="image fit rounded">
+								<img src="images/me.webp" alt="A photo of me presenting results" style="border-radius: 50%;" loading="eager" />
+							</span>
+						</div>
 					</div>
 					<div class="col-8 col-7-large col-12-medium">
 						<header>
-							<h1><b>Peter Smith</b></h1>
+							<h1 class="hero-title"><b>Peter Smith</b></h1>
 						</header>
 						<p>I'm a PhD student at the <a href="https://mpia.de/en" rel="external">MPIA</a>
 							in Heidelberg as part of the <a href="https://www.imprs-hd.mpg.de/" rel="external">
@@ -171,53 +176,7 @@
 							rel="external">ADS
 							page</a>.</p>
 				</header>
-
-				<br>
-				<b>oMEGACat. VI. Analysis of the overall kinematics of Omega Centauri in 3D: velocity dispersion,
-					kinematic
-					distance, anisotropy, and energy equipartition.</b>
-				<br>
-				M. Häberle, N. Neumayer, C. Clontz, A. Seth, <b>P. Smith</b>, S. Kamann, R. Pechetti, M. S. Nitschai, M.
-				Alfaro-Cuello, H. Baumgardt, A. Bellini, A. Feldmeier-Krause, N. Kacharov, M. Libralato, A. P. Milone,
-				S.
-				Souza, G. van de Ven, Z. Wang.
-				<br>
-				ApJ, 983, 95 (2025).
-				<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250304903H/abstract" rel="external">ADS</a>
-				<a href="https://arxiv.org/abs/2503.04903" rel="external">arXiv</a>
-				<br>
-
-				<br>
-				<b>Probing populations of dark stellar remnants in the globular clusters 47 Tuc and Terzan 5 using
-					pulsar timing.</b>
-				<br>
-				<b>P. Smith</b>, V. Hénault-Brunet, N. Dickson, M. Gieles, H. Baumgardt.
-				<br>
-				ApJ, 975, 268 (2024).
-				<a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975..268S/abstract" rel="external">ADS</a>
-				<a href="https://arxiv.org/abs/2407.06274" rel="external">arXiv</a>
-				<br>
-
-				<br>
-				<b>Multimass modelling of milky way globular clusters - II. Present-day black hole populations.</b>
-				<br>
-				N. Dickson, <b>P. Smith</b>, V. Hénault-Brunet, M. Gieles, H. Baumgardt.
-				<br>
-				MNRAS, 529, 331-347 (2024).
-				<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..331D/abstract" rel="external">ADS</a>
-				<a href="https://arxiv.org/abs/2308.13037" rel="external">arXiv</a>
-				<br>
-
-				<br>
-				<b>Multimass modelling of Milky Way globular clusters - I. Implications on their stellar initial mass
-					function above 1 M<sub>☉</sub>.</b>
-				<br>
-				N. Dickson, V. Hénault-Brunet, H. Baumgardt, M. Gieles, <b>P. Smith</b>.
-				<br>
-				MNRAS, 522, 5320-5339 (2023).
-				<a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5320D/abstract" rel="external">ADS</a>
-				<a href="https://arxiv.org/abs/2303.01637" rel="external">arXiv</a>
-				<br>
+				<div id="pub-list" class="pub-list"></div>
 			</div>
 		</article>
 
@@ -271,23 +230,6 @@
 		</article>
 	</main>
 
-	<div class="rp-modal" id="rp-modal" role="dialog" aria-modal="true" aria-labelledby="rp-modal-title">
-		<div class="rp-modal-inner" id="rp-modal-inner">
-			<button class="rp-modal-close" id="rp-modal-close" aria-label="Close project details">
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
-					stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
-					<line x1="2" y1="2" x2="14" y2="14" />
-					<line x1="14" y1="2" x2="2" y2="14" />
-				</svg>
-			</button>
-			<div class="rp-modal-tags" id="rp-modal-tags"></div>
-			<h3 class="rp-modal-title" id="rp-modal-title"></h3>
-			<div class="rp-modal-body" id="rp-modal-body"></div>
-			<div class="rp-modal-figure" id="rp-modal-figure"></div>
-			<div class="rp-modal-links" id="rp-modal-links"></div>
-		</div>
-	</div>
-
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -318,12 +260,13 @@
 					tagline: "Velocity dispersion, kinematic distance, anisotropy, and energy equipartition in Omega Cen",
 					tags: ["Omega Centauri", "HST"],
 					description: [
-						"Using the oMEGACat catalog — 1.4 million proper motion measurements and 300,000 spectroscopic radial velocities — we analysed the full 3D internal kinematics of Omega Centauri, the Milky Way's most massive globular cluster and likely the stripped nucleus of an accreted dwarf galaxy.",
-						"We measured a kinematic distance of 5494 ± 61 pc, the most precise available, and found the velocity dispersion profile to be isotropic in the core with increasing radial anisotropy at larger radii. Metallicity shows no correlation with kinematics, indicating well-mixed stellar populations, while partial energy equipartition decreases from the center outwards. These results will serve as a new reference for future dynamical modelling of the cluster, an effort which I will lead within the oMEGACat collaboration."
+						"Using the oMEGACat catalog — 1.4 million proper motion measurements and 300,000 spectroscopic radial velocities — we analysed the full 3D internal kinematics of Omega Centauri, the Milky Way's most massive globular cluster and likely the stripped nucleus of an accreted dwarf galaxy (Häberle et al. 2025).",
+						"We measured a kinematic distance of 5494 ± 61 pc, the most precise available, and found the velocity dispersion profile to be isotropic in the core with increasing radial anisotropy at larger radii. Metallicity shows no correlation with kinematics, indicating well-mixed stellar populations, while partial energy equipartition decreases from the center outwards. These results serve as a new reference for future dynamical modelling of the cluster, an effort which I will lead within the oMEGACat collaboration."
 					],
-					figure: null,
+					figure: "images/los_velocity_maps_2d_n100_m18_revised.png",
+					figureAlt: "2D line-of-sight velocity maps of Omega Centauri",
 					links: [
-						{ label: "ADS Paper", url: "https://ui.adsabs.harvard.edu/abs/2025arXiv250304903H/abstract" },
+						{ label: "ADS Paper", url: "https://ui.adsabs.harvard.edu/abs/2025ApJ...983...95H/abstract" },
 						{ label: "arXiv", url: "https://arxiv.org/abs/2503.04903" }
 					]
 				},
@@ -347,79 +290,145 @@
 					tagline: "Probing inner Milky Way stellar populations and dynamics with Milky Way Mapper spectroscopy",
 					tags: ["SDSS-V", "Milky Way"],
 					description: [
-						"As part of the SDSS-V collaboration, I contribute to the analysis of Milky Way Mapper data to study stellar populations and kinematics in the inner Milky Way, leveraging the survey's wide-field multi-object spectroscopy.",
+						"As part of the SDSS-V collaboration (Kollmeier et al. 2026), I contribute to the analysis of Milky Way Mapper data to study stellar populations and kinematics in the inner Milky Way, leveraging the survey's wide-field multi-object spectroscopy.",
 						"This work targets the complex dynamical environment of the inner Galaxy at scales and depths not previously accessible due to heavy extinction, contributing to a growing picture of the Milky Way's structural and kinematic properties."
 					],
-					figure: null,
-					links: []
+					figure: "images/faceon_apogeeDR17_vs_GG_theta1_mp_density.png",
+					figureAlt: "Face-on stellar density map of the inner Milky Way from APOGEE DR17 compared to a Milky Way model",
+					links: [
+						{ label: "ADS Paper", url: "https://ui.adsabs.harvard.edu/abs/2026AJ....171...52K/abstract" },
+						{ label: "arXiv", url: "https://arxiv.org/abs/2507.06989" }
+					]
 				}
 			];
 
-			var $modal = $('#rp-modal');
-			var $inner = $('#rp-modal-inner');
-			var lastFocus;
+			function escapeHtml(s) {
+				return $('<div>').text(s).html();
+			}
 
+			// ADS titles arrive with pre-escaped entities (e.g. "&lt;" for a literal "<"),
+			// LaTeX-style math delimiters (e.g. "$\omega$" already unicode-resolved to "$ω$"),
+			// and raw <SUB>/<SUP> tags for things like "M<SUB>&#9737;</SUB>". Decode/strip the
+			// former two, escape everything, then restore just the sub/sup tags.
+			function formatPubTitle(title) {
+				var decoded = String(title || '')
+					.replace(/&lt;/g, '<')
+					.replace(/&gt;/g, '>')
+					.replace(/&quot;/g, '"')
+					.replace(/&#39;|&apos;/g, "'")
+					.replace(/&amp;/g, '&')
+					.replace(/\$([^$]*)\$/g, '$1');
+				return escapeHtml(decoded)
+					.replace(/&lt;(sub|sup)&gt;([\s\S]*?)&lt;\/\1&gt;/gi, '<$1>$2</$1>');
+			}
+
+			// ── Research: inline-expanding accordion cards ──
 			function buildCards() {
 				var $grid = $('#rp-grid');
 				$.each(projects, function (i, p) {
-					$grid.append(
-						'<div class="rp-card" tabindex="0" role="button"' +
-						'     aria-label="View details for ' + p.title + '"' +
-						'     data-idx="' + i + '">' +
-						'<div class="rp-card-title">' + p.title + '</div>' +
-						'<div class="rp-card-tagline">' + p.tagline + '</div>' +
-						'<div class="rp-card-footer">View project <span aria-hidden="true">&nbsp;&rarr;</span></div>' +
+					var $card = $(
+						'<div class="rp-card" tabindex="0" role="button" aria-expanded="false"' +
+						'     aria-label="' + escapeHtml(p.title) + '" data-idx="' + i + '">' +
+						'  <div class="rp-card-figure">' +
+						(p.figure
+							? '<img src="' + p.figure + '" alt="' + escapeHtml(p.figureAlt || '') + '" loading="lazy">'
+							: '<span class="rp-card-figure-placeholder">figure in prep</span>') +
+						'    <div class="rp-card-tags">' +
+						$.map(p.tags, function (t) { return '<span class="rp-tag">' + escapeHtml(t) + '</span>'; }).join('') +
+						'    </div>' +
+						'  </div>' +
+						'  <div class="rp-card-body">' +
+						'    <div class="rp-card-title">' + escapeHtml(p.title) + '</div>' +
+						'    <div class="rp-card-tagline">' + escapeHtml(p.tagline) + '</div>' +
+						'    <div class="rp-card-footer">' +
+						'      <span class="rp-card-cta">View project</span>' +
+						'      <span class="rp-card-chevron" aria-hidden="true">&darr;</span>' +
+						'    </div>' +
+						'    <div class="rp-card-details">' +
+						$.map(p.description, function (para) { return '<p>' + para + '</p>'; }).join('') +
+						(p.links.length
+							? '<div class="rp-card-links">' +
+							$.map(p.links, function (l) {
+								return '<a href="' + l.url + '" class="rp-link" target="_blank" rel="external noopener">&#8599;&nbsp;' + escapeHtml(l.label) + '</a>';
+							}).join('') +
+							'</div>'
+							: '') +
+						'    </div>' +
+						'  </div>' +
+						'</div>'
+					);
+					$grid.append($card);
+				});
+			}
+
+			function toggleCard($card) {
+				var expanded = $card.hasClass('is-expanded');
+				$card.toggleClass('is-expanded', !expanded);
+				$card.attr('aria-expanded', String(!expanded));
+				$card.find('.rp-card-cta').text(!expanded ? 'Hide details' : 'View project');
+			}
+
+			// ── Publications: fetch from publications.json, fall back to a small static list ──
+			function fallbackPublications() {
+				return [
+					{ year: '2025', title: 'oMEGACat VI. Analysis of the overall kinematics of Omega Centauri in 3D', authors: ['Häberle, M.', 'Neumayer, N.', 'Smith, P.'], journal: 'ApJ, 983, 95', adsUrl: 'https://ui.adsabs.harvard.edu/abs/2025arXiv250304903H/abstract', arxivUrl: 'https://arxiv.org/abs/2503.04903' },
+					{ year: '2024', title: 'Probing populations of dark stellar remnants in 47 Tuc and Terzan 5 using pulsar timing', authors: ['Smith, P.', 'Hénault-Brunet, V.', 'Dickson, N.', 'Gieles, M.', 'Baumgardt, H.'], journal: 'ApJ, 975, 268', adsUrl: 'https://ui.adsabs.harvard.edu/abs/2024ApJ...975..268S/abstract', arxivUrl: 'https://arxiv.org/abs/2407.06274' },
+					{ year: '2024', title: 'Multimass modelling of milky way globular clusters - II. Present-day black hole populations', authors: ['Dickson, N.', 'Smith, P.', 'Hénault-Brunet, V.', 'Gieles, M.', 'Baumgardt, H.'], journal: 'MNRAS, 529, 331-347', adsUrl: 'https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..331D/abstract', arxivUrl: 'https://arxiv.org/abs/2308.13037' },
+					{ year: '2023', title: 'Multimass modelling of Milky Way globular clusters - I. Implications on their stellar initial mass function above 1 M☉', authors: ['Dickson, N.', 'Hénault-Brunet, V.', 'Baumgardt, H.', 'Gieles, M.', 'Smith, P.'], journal: 'MNRAS, 522, 5320-5339', adsUrl: 'https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5320D/abstract', arxivUrl: 'https://arxiv.org/abs/2303.01637' }
+				];
+			}
+
+			function isMe(name) {
+				return /smith/i.test(name);
+			}
+
+			function renderPublications(pubs) {
+				var MAX_SHOWN = 6;
+				var $list = $('#pub-list');
+				$list.empty();
+				$.each(pubs, function (i, pub) {
+					var authors = pub.authors || [];
+					var shown = authors.slice(0, MAX_SHOWN);
+					var truncated = authors.length > MAX_SHOWN;
+					var meShown = shown.some(isMe);
+					var authorsHtml = $.map(shown, function (name, idx) {
+						var text = escapeHtml(name) + (idx < shown.length - 1 ? ', ' : '');
+						return isMe(name) ? '<b>' + text + '</b>' : '<span>' + text + '</span>';
+					}).join('') + (truncated ? ' et al.' : '')
+						+ (truncated && !meShown ? ' (incl. <b>PJS</b>)' : '');
+
+					$list.append(
+						'<div class="pub-row">' +
+						'  <div class="pub-year">' + escapeHtml(pub.year) + '</div>' +
+						'  <div class="pub-main">' +
+						'    <a href="' + pub.adsUrl + '" target="_blank" rel="external" class="pub-title">' + formatPubTitle(pub.title) + '</a>' +
+						'    <div class="pub-authors">' + authorsHtml + '</div>' +
+						'    <div class="pub-meta">' +
+						'      <span class="pub-journal">' + escapeHtml(pub.journal) + '</span>' +
+						'      <a href="' + pub.adsUrl + '" target="_blank" rel="external" class="rp-link">ADS</a>' +
+						(pub.arxivUrl ? '<a href="' + pub.arxivUrl + '" target="_blank" rel="external" class="rp-link">arXiv</a>' : '') +
+						'    </div>' +
+						'  </div>' +
 						'</div>'
 					);
 				});
 			}
 
-			function openModal(idx) {
-				var p = projects[idx];
-				lastFocus = document.activeElement;
+			// ── Nav scroll-spy ──
+			function initScrollSpy() {
+				var sections = $('main > article[id]').toArray();
+				var $links = $('#nav a[href^="#"]');
+				if (!sections.length || !('IntersectionObserver' in window)) return;
 
-				$('#rp-modal-tags').html(
-					$.map(p.tags, function (t) { return '<span class="rp-tag">' + t + '</span>'; }).join('')
-				);
-				$('#rp-modal-title').text(p.title);
-				$('#rp-modal-body').html(
-					$.map(p.description, function (para) { return '<p>' + para + '</p>'; }).join('')
-				);
-				$('#rp-modal-figure').html(
-					p.figure
-						? '<img src="' + p.figure + '" alt="' + (p.figureAlt || '') + '" loading="lazy">'
-						: ''
-				);
-				$('#rp-modal-links').html(
-					p.links.length
-						? $.map(p.links, function (l) {
-							return '<a href="' + l.url + '" class="rp-link" target="_blank" rel="external noopener">' +
-								'&#8599;&nbsp;' + l.label + '</a>';
-						}).join('')
-						: ''
-				);
+				var observer = new IntersectionObserver(function (entries) {
+					entries.forEach(function (entry) {
+						if (!entry.isIntersecting) return;
+						$links.removeClass('active');
+						$links.filter('[href="#' + entry.target.id + '"]').addClass('active');
+					});
+				}, { rootMargin: '-45% 0px -50% 0px' });
 
-				$modal.addClass('is-open');
-				$inner[0].scrollTop = 0;
-				$('body').css('overflow', 'hidden');
-				setTimeout(function () { $('#rp-modal-close').focus(); }, 40);
-			}
-
-			function closeModal() {
-				$modal.removeClass('is-open');
-				$('body').css('overflow', '');
-				if (lastFocus) lastFocus.focus();
-			}
-
-			function trapFocus(e) {
-				if (!$modal.hasClass('is-open')) return;
-				var focusable = $inner.find('a[href], button, [tabindex]:not([tabindex="-1"])').filter(':visible');
-				var first = focusable.first()[0];
-				var last = focusable.last()[0];
-				if (e.key === 'Tab') {
-					if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-					else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-				}
+				sections.forEach(function (s) { observer.observe(s); });
 			}
 
 			$(function () {
@@ -428,289 +437,19 @@
 				$(document).on('click keydown', '.rp-card', function (e) {
 					if (e.type === 'click' || e.key === 'Enter' || e.key === ' ') {
 						e.preventDefault();
-						openModal($(this).data('idx'));
+						toggleCard($(this));
 					}
 				});
 
-				$('#rp-modal-close').on('click', closeModal);
+				$('#pub-list').html('<p class="pub-loading">Loading publications&hellip;</p>');
+				$.getJSON('publications.json')
+					.done(function (data) { renderPublications(data); })
+					.fail(function () { renderPublications(fallbackPublications()); });
 
-				$modal.on('click', function (e) {
-					if ($(e.target).is($modal)) closeModal();
-				});
-
-				$(document).on('keydown', function (e) {
-					if (e.key === 'Escape' && $modal.hasClass('is-open')) closeModal();
-				});
-
-				$inner.on('keydown', trapFocus);
+				initScrollSpy();
 			});
 		}(jQuery));
 	</script>
-
-	<style>
-		/* Screen reader only class for accessibility */
-		.sr-only {
-			position: absolute;
-			left: -10000px;
-			width: 1px;
-			height: 1px;
-			overflow: hidden;
-		}
-
-		/* ── Nav name left, links centered ── */
-		#nav li.nav-name {
-			position: absolute;
-			left: 1.5em;
-			top: 50%;
-			transform: translateY(-50%);
-		}
-
-		#nav li.nav-name a {
-			color: #fff;
-		}
-
-		/* ── Research Projects ── */
-		.rp-grid {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 1.25rem;
-			margin-top: 2.5rem;
-		}
-
-		@media (max-width: 980px) {
-			.rp-grid {
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-
-		@media (max-width: 736px) {
-			.rp-grid {
-				grid-template-columns: 1fr;
-			}
-		}
-
-		.rp-card {
-			position: relative;
-			text-align: left;
-			background: #fff;
-			border: 1px solid #e4e4e4;
-			border-radius: 4px;
-			padding: 1.5rem;
-			cursor: pointer;
-			transition: background 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
-			overflow: hidden;
-			display: flex;
-			flex-direction: column;
-		}
-
-		.rp-card::before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			height: 2px;
-			background: #43B3E0;
-			transform: scaleX(0);
-			transform-origin: left;
-			transition: transform 0.3s ease;
-		}
-
-		.rp-card:hover,
-		.rp-card:focus-visible {
-			background: #f7f9fb;
-			border-color: #bdd6e8;
-			transform: translateY(-2px);
-			box-shadow: 0 8px 28px rgba(0, 0, 0, 0.10);
-			outline: none;
-		}
-
-		.rp-card:hover::before,
-		.rp-card:focus-visible::before {
-			transform: scaleX(1);
-		}
-
-		.rp-card-title {
-			font-size: 0.98rem;
-			font-weight: 600;
-			color: #2a2a2a;
-			line-height: 1.35;
-			margin-bottom: 0.55rem;
-		}
-
-		.rp-card-tagline {
-			font-size: 0.83rem;
-			color: #666;
-			line-height: 1.55;
-			flex: 1;
-			margin-bottom: 1.2rem;
-		}
-
-		.rp-card-footer {
-			border-top: 1px solid #eaeaea;
-			padding-top: 0.85rem;
-			font-size: 0.78rem;
-			color: #43B3E0;
-			display: flex;
-			align-items: center;
-			gap: 0.35rem;
-			transition: gap 0.2s;
-		}
-
-		.rp-card:hover .rp-card-footer,
-		.rp-card:focus-visible .rp-card-footer {
-			gap: 0.55rem;
-		}
-
-		/* ── Modal ── */
-		.rp-modal {
-			position: fixed;
-			inset: 0;
-			z-index: 10001;
-			background: rgba(0, 0, 0, 0.55);
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			padding: 1.5rem;
-			opacity: 0;
-			pointer-events: none;
-			transition: opacity 0.22s ease;
-		}
-
-		.rp-modal.is-open {
-			opacity: 1;
-			pointer-events: all;
-		}
-
-		.rp-modal-inner {
-			position: relative;
-			background: #fff;
-			border: 1px solid #e0e0e0;
-			border-top: 2px solid #43B3E0;
-			border-radius: 5px;
-			padding: 2.25rem 2.5rem 2rem;
-			max-width: 680px;
-			width: 100%;
-			max-height: 90vh;
-			overflow-y: auto;
-			transform: translateY(14px);
-			transition: transform 0.22s ease;
-		}
-
-		.rp-modal.is-open .rp-modal-inner {
-			transform: translateY(0);
-		}
-
-		.rp-modal-close {
-			position: absolute !important;
-			top: 1rem !important;
-			right: 1.25rem !important;
-			background: none !important;
-			background-color: transparent !important;
-			background-image: none !important;
-			box-shadow: none !important;
-			text-shadow: none !important;
-			border: none !important;
-			border-radius: 0 !important;
-			padding: 0.25rem !important;
-			color: #aaa !important;
-			font-size: 1rem !important;
-			max-width: none !important;
-			cursor: pointer !important;
-			transition: color 0.15s !important;
-			display: flex !important;
-			align-items: center !important;
-			justify-content: center !important;
-			overflow: visible !important;
-		}
-
-		.rp-modal-close:hover {
-			color: #333 !important;
-			background: none !important;
-			background-color: transparent !important;
-		}
-
-		.rp-modal-close svg {
-			pointer-events: none;
-			display: block;
-		}
-
-		.math-err {
-			display: inline-flex;
-			flex-direction: column;
-			font-size: 0.72em;
-			line-height: 1.15;
-			vertical-align: middle;
-			margin: 0 0.05em;
-			text-align: center;
-		}
-
-		.rp-modal-tags {
-			display: none;
-		}
-
-		.rp-modal-title {
-			font-size: 1.3rem;
-			font-weight: 700;
-			color: #1a1a1a;
-			line-height: 1.3;
-			margin-bottom: 1.25rem;
-			padding-right: 2rem;
-		}
-
-		.rp-modal-body {
-			color: #555;
-			font-size: 0.88rem;
-			line-height: 1.75;
-		}
-
-		.rp-modal-body p+p {
-			margin-top: 0.8rem;
-		}
-
-		.rp-modal-figure {
-			margin-top: 2.25rem;
-			margin-bottom: 0.75rem;
-		}
-
-		.rp-modal-figure img {
-			width: 100%;
-			border-radius: 4px;
-			border: 1px solid #e4e4e4;
-			display: block;
-		}
-
-		.rp-modal-links {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 0.65rem;
-			margin-top: 1.75rem;
-			padding-top: 1.25rem;
-			border-top: 1px solid #eaeaea;
-		}
-
-		.rp-link {
-			display: inline-flex;
-			align-items: center;
-			gap: 0.4rem;
-			font-family: 'Courier New', monospace;
-			font-size: 0.72rem;
-			letter-spacing: 0.06em;
-			text-transform: uppercase;
-			color: #43B3E0;
-			border: 1px solid #dde8ef;
-			border-radius: 3px;
-			padding: 0.45em 0.9em;
-			text-decoration: none;
-			transition: background 0.15s, border-color 0.15s;
-		}
-
-		.rp-link:hover {
-			background: rgba(67, 179, 224, 0.08);
-			border-color: #43B3E0;
-			text-decoration: none;
-		}
-	</style>
 
 </body>
 
