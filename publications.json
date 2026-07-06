@@ -1,22 +1,6 @@
 [
   {
     "year": "2026",
-    "title": "Intermediate-mass black hole seeding in galactic nuclei from star cluster migration",
-    "authors": [
-      "Torniamenti, Stefano",
-      "Hoyer, Nils",
-      "Neumayer, Nadine",
-      "Smith, Peter J.",
-      "Arca Sedda, Manuel"
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260614852T",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.14852",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2606.14852"
-  },
-  {
-    "year": "2026",
     "title": "A Long Period Stellar-Mass Black Hole Binary in $\u03c9$ Centauri",
     "authors": [
       "Whitaker, Matthew",
@@ -37,6 +21,22 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260618350W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.18350",
     "doiUrl": "https://doi.org/10.48550/arXiv.2606.18350"
+  },
+  {
+    "year": "2026",
+    "title": "Intermediate-mass black hole seeding in galactic nuclei from star cluster migration",
+    "authors": [
+      "Torniamenti, Stefano",
+      "Hoyer, Nils",
+      "Neumayer, Nadine",
+      "Smith, Peter J.",
+      "Arca Sedda, Manuel"
+    ],
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260614852T",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2606.14852",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2606.14852"
   },
   {
     "year": "2026",
@@ -86,6 +86,28 @@
   },
   {
     "year": "2026",
+    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
+    "authors": [
+      "Clontz, C.",
+      "Seth, A. C.",
+      "Wang, Z.",
+      "H\u00e4berle, M.",
+      "Nitschai, M. S.",
+      "Neumayer, N.",
+      "Smith, P. J.",
+      "Latour, M.",
+      "Feldmeier-Krause, A.",
+      "Libralato, M.",
+      "Bellini, A."
+    ],
+    "journal": "The Astrophysical Journal",
+    "bibcode": "2026ApJ...998..177C",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2510.26341",
+    "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
+  },
+  {
+    "year": "2026",
     "title": "Variations in the Milky Way's Stellar Mass Function at [Fe/H] &lt; \u22121",
     "authors": [
       "Li, Jiadong",
@@ -106,28 +128,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
     "arxivUrl": "https://arxiv.org/abs/2601.19522",
     "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
-  },
-  {
-    "year": "2026",
-    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
-    "authors": [
-      "Clontz, C.",
-      "Seth, A. C.",
-      "Wang, Z.",
-      "H\u00e4berle, M.",
-      "Nitschai, M. S.",
-      "Neumayer, N.",
-      "Smith, P. J.",
-      "Latour, M.",
-      "Feldmeier-Krause, A.",
-      "Libralato, M.",
-      "Bellini, A."
-    ],
-    "journal": "The Astrophysical Journal",
-    "bibcode": "2026ApJ...998..177C",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2510.26341",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
   },
   {
     "year": "2025",
