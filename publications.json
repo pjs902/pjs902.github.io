@@ -17,7 +17,7 @@
   },
   {
     "year": "2026",
-    "title": "A Long Period Stellar-Mass Black Hole Binary in $\u03c9$ Centauri",
+    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
     "authors": [
       "Whitaker, Matthew",
       "Kerr, Evan",
@@ -32,11 +32,11 @@
       "Kamann, Sebastian",
       "Libralato, Mattia"
     ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260618350W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260618350W/abstract",
+    "journal": "The Astrophysical Journal",
+    "bibcode": "2026ApJ..1006L...1W",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.18350",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2606.18350"
+    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
   },
   {
     "year": "2026",
@@ -53,29 +53,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.14852",
     "doiUrl": "https://doi.org/10.48550/arXiv.2606.14852"
-  },
-  {
-    "year": "2026",
-    "title": "oMEGACat. IX. Chemical Tagging of Omega Centauri Populations with Machine-Learning-Inferred Abundances from the MUSE Spectrograph",
-    "authors": [
-      "Wang, Z.",
-      "Seth, A. C.",
-      "Clontz, C.",
-      "Neumayer, N.",
-      "H\u00e4berle, M.",
-      "Kamann, S.",
-      "Latour, M.",
-      "Nitschai, M. S.",
-      "Smith, P. J.",
-      "Souza, S. O.",
-      "Alfaro-Cuello, M.",
-      "Bellini, A."
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260301041W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2603.01041",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2603.01041"
   },
   {
     "year": "2026",
@@ -99,6 +76,29 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260323589S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2603.23589",
     "doiUrl": "https://doi.org/10.48550/arXiv.2603.23589"
+  },
+  {
+    "year": "2026",
+    "title": "oMEGACat. IX. Chemical Tagging of Omega Centauri Populations with Machine-Learning-Inferred Abundances from the MUSE Spectrograph",
+    "authors": [
+      "Wang, Z.",
+      "Seth, A. C.",
+      "Clontz, C.",
+      "Neumayer, N.",
+      "H\u00e4berle, M.",
+      "Kamann, S.",
+      "Latour, M.",
+      "Nitschai, M. S.",
+      "Smith, P. J.",
+      "Souza, S. O.",
+      "Alfaro-Cuello, M.",
+      "Bellini, A."
+    ],
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260301041W",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2603.01041",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2603.01041"
   },
   {
     "year": "2026",
