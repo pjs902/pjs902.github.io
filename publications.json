@@ -16,27 +16,11 @@
       "Kamann, Sebastian",
       "Libralato, Mattia"
     ],
-    "journal": "The Astrophysical Journal",
+    "journal": "The Astrophysical Journal Letters",
     "bibcode": "2026ApJ..1006L...1W",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.18350",
     "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
   },
   {
     "year": "2026",
@@ -63,6 +47,29 @@
   },
   {
     "year": "2026",
+    "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
+    "authors": [
+      "H\u00e4berle, Maximilian",
+      "Bizyaev, Dmitry",
+      "Boecker, Alina",
+      "Clontz, Callie",
+      "Dias, Bruno",
+      "Dumont, Antoine",
+      "Egorova, Evgeniya",
+      "Feldmeier-Krause, Anja",
+      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
+      "Garc\u00eda, Pablo",
+      "Herbst, Thomas M.",
+      "Hilder, Thomas"
+    ],
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260728809H",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.28809",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.28809"
+  },
+  {
+    "year": "2026",
     "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
     "authors": [
       "SDSS Collaboration",
@@ -83,6 +90,22 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.26149",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
+  },
+  {
+    "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
   },
   {
     "year": "2026",
@@ -148,29 +171,6 @@
   },
   {
     "year": "2026",
-    "title": "Variations in the Milky Way's Stellar Mass Function at [Fe/H] &lt; \u22121",
-    "authors": [
-      "Li, Jiadong",
-      "Rix, Hans-Walter",
-      "Ting, Yuan-Sen",
-      "Wang, Yu-Ting",
-      "M\u00e9sz\u00e1ros, Szabolcs",
-      "Medan, Ilija",
-      "Liu, Chao",
-      "Yan, Zhiqiang",
-      "Smith, Peter J.",
-      "Qiu, Dan",
-      "Roman-Lopes, Alexandre",
-      "Green, Gregory M."
-    ],
-    "journal": "The Astrophysical Journal",
-    "bibcode": "2026ApJ...998L..33L",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2601.19522",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
-  },
-  {
-    "year": "2026",
     "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
     "authors": [
       "Clontz, C.",
@@ -190,6 +190,29 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
     "arxivUrl": "https://arxiv.org/abs/2510.26341",
     "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
+  },
+  {
+    "year": "2026",
+    "title": "Variations in the Milky Way's Stellar Mass Function at [Fe/H] &lt; \u22121",
+    "authors": [
+      "Li, Jiadong",
+      "Rix, Hans-Walter",
+      "Ting, Yuan-Sen",
+      "Wang, Yu-Ting",
+      "M\u00e9sz\u00e1ros, Szabolcs",
+      "Medan, Ilija",
+      "Liu, Chao",
+      "Yan, Zhiqiang",
+      "Smith, Peter J.",
+      "Qiu, Dan",
+      "Roman-Lopes, Alexandre",
+      "Green, Gregory M."
+    ],
+    "journal": "The Astrophysical Journal Letters",
+    "bibcode": "2026ApJ...998L..33L",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2601.19522",
+    "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
   },
   {
     "year": "2025",
