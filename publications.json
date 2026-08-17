@@ -24,26 +24,19 @@
   },
   {
     "year": "2026",
-    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
     "authors": [
-      "Medan, Ilija",
-      "Casey, Andrew R.",
-      "Ji, Alexander P.",
-      "Otto, Jonah M.",
-      "Sharifi, Kayvon",
-      "Way, Zachary",
-      "McKenzie, Madeleine",
-      "Myers, Natalie R.",
-      "Stassun, Keivan G.",
-      "Smith, Peter J.",
-      "Tkachenko, Andrew",
-      "Chandra, Vedant"
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
     ],
     "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260722822M",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.22822",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
   },
   {
     "year": "2026",
@@ -70,6 +63,29 @@
   },
   {
     "year": "2026",
+    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
+    "authors": [
+      "Medan, Ilija",
+      "Casey, Andrew R.",
+      "Ji, Alexander P.",
+      "Otto, Jonah M.",
+      "Sharifi, Kayvon",
+      "Way, Zachary",
+      "McKenzie, Madeleine",
+      "Myers, Natalie R.",
+      "Stassun, Keivan G.",
+      "Smith, Peter J.",
+      "Tkachenko, Andrew",
+      "Chandra, Vedant"
+    ],
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260722822M",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.22822",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
+  },
+  {
+    "year": "2026",
     "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
     "authors": [
       "SDSS Collaboration",
@@ -90,22 +106,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.26149",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
   },
   {
     "year": "2026",
@@ -171,28 +171,6 @@
   },
   {
     "year": "2026",
-    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
-    "authors": [
-      "Clontz, C.",
-      "Seth, A. C.",
-      "Wang, Z.",
-      "H\u00e4berle, M.",
-      "Nitschai, M. S.",
-      "Neumayer, N.",
-      "Smith, P. J.",
-      "Latour, M.",
-      "Feldmeier-Krause, A.",
-      "Libralato, M.",
-      "Bellini, A."
-    ],
-    "journal": "The Astrophysical Journal",
-    "bibcode": "2026ApJ...998..177C",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2510.26341",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
-  },
-  {
-    "year": "2026",
     "title": "Variations in the Milky Way's Stellar Mass Function at [Fe/H] &lt; \u22121",
     "authors": [
       "Li, Jiadong",
@@ -213,6 +191,28 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
     "arxivUrl": "https://arxiv.org/abs/2601.19522",
     "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
+  },
+  {
+    "year": "2026",
+    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
+    "authors": [
+      "Clontz, C.",
+      "Seth, A. C.",
+      "Wang, Z.",
+      "H\u00e4berle, M.",
+      "Nitschai, M. S.",
+      "Neumayer, N.",
+      "Smith, P. J.",
+      "Latour, M.",
+      "Feldmeier-Krause, A.",
+      "Libralato, M.",
+      "Bellini, A."
+    ],
+    "journal": "The Astrophysical Journal",
+    "bibcode": "2026ApJ...998..177C",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2510.26341",
+    "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
   },
   {
     "year": "2025",
