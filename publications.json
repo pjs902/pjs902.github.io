@@ -1,26 +1,26 @@
 [
   {
     "year": "2026",
-    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
+    "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
     "authors": [
-      "Whitaker, Matthew",
-      "Kerr, Evan",
-      "Seth, Anil",
-      "H\u00e4berle, Maximilian",
-      "Strader, Jay",
-      "Anderson, Jay",
-      "Bellini, Andrea",
-      "Clontz, Callie",
-      "Freeman, Zack",
-      "Griggio, Massimo",
-      "Kamann, Sebastian",
-      "Libralato, Mattia"
+      "SDSS Collaboration",
+      "Aghakhanloo, Mojgan",
+      "Aguilar, David",
+      "Aird, James",
+      "Almeida, Andr\u00e9s",
+      "Sanabria Alonso, Bella Abigail",
+      "Andales, Hillary Diane",
+      "Anderson, Scott F.",
+      "Arseneau, Stefan",
+      "Gonz\u00e1lez \u00c1vila, Consuelo",
+      "Aviram, Shir",
+      "Aydar, Catarina"
     ],
-    "journal": "The Astrophysical Journal Letters",
-    "bibcode": "2026ApJ..1006L...1W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.18350",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260726149S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.26149",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
   },
   {
     "year": "2026",
@@ -37,29 +37,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.07010",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
-  },
-  {
-    "year": "2026",
-    "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
-    "authors": [
-      "H\u00e4berle, Maximilian",
-      "Bizyaev, Dmitry",
-      "Boecker, Alina",
-      "Clontz, Callie",
-      "Dias, Bruno",
-      "Dumont, Antoine",
-      "Egorova, Evgeniya",
-      "Feldmeier-Krause, Anja",
-      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
-      "Garc\u00eda, Pablo",
-      "Herbst, Thomas M.",
-      "Hilder, Thomas"
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260728809H",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.28809",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.28809"
   },
   {
     "year": "2026",
@@ -86,26 +63,49 @@
   },
   {
     "year": "2026",
-    "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
+    "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
     "authors": [
-      "SDSS Collaboration",
-      "Aghakhanloo, Mojgan",
-      "Aguilar, David",
-      "Aird, James",
-      "Almeida, Andr\u00e9s",
-      "Sanabria Alonso, Bella Abigail",
-      "Andales, Hillary Diane",
-      "Anderson, Scott F.",
-      "Arseneau, Stefan",
-      "Gonz\u00e1lez \u00c1vila, Consuelo",
-      "Aviram, Shir",
-      "Aydar, Catarina"
+      "H\u00e4berle, Maximilian",
+      "Bizyaev, Dmitry",
+      "Boecker, Alina",
+      "Clontz, Callie",
+      "Dias, Bruno",
+      "Dumont, Antoine",
+      "Egorova, Evgeniya",
+      "Feldmeier-Krause, Anja",
+      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
+      "Garc\u00eda, Pablo",
+      "Herbst, Thomas M.",
+      "Hilder, Thomas"
     ],
     "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260726149S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.26149",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
+    "bibcode": "2026arXiv260728809H",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.28809",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.28809"
+  },
+  {
+    "year": "2026",
+    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
+    "authors": [
+      "Whitaker, Matthew",
+      "Kerr, Evan",
+      "Seth, Anil",
+      "H\u00e4berle, Maximilian",
+      "Strader, Jay",
+      "Anderson, Jay",
+      "Bellini, Andrea",
+      "Clontz, Callie",
+      "Freeman, Zack",
+      "Griggio, Massimo",
+      "Kamann, Sebastian",
+      "Libralato, Mattia"
+    ],
+    "journal": "The Astrophysical Journal Letters",
+    "bibcode": "2026ApJ..1006L...1W",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2606.18350",
+    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
   },
   {
     "year": "2026",
@@ -122,29 +122,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.14852",
     "doiUrl": "https://doi.org/10.48550/arXiv.2606.14852"
-  },
-  {
-    "year": "2026",
-    "title": "oMEGACat. IX. Chemical Tagging of Omega Centauri Populations with Machine-Learning-Inferred Abundances from the MUSE Spectrograph",
-    "authors": [
-      "Wang, Z.",
-      "Seth, A. C.",
-      "Clontz, C.",
-      "Neumayer, N.",
-      "H\u00e4berle, M.",
-      "Kamann, S.",
-      "Latour, M.",
-      "Nitschai, M. S.",
-      "Smith, P. J.",
-      "Souza, S. O.",
-      "Alfaro-Cuello, M.",
-      "Bellini, A."
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260301041W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2603.01041",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2603.01041"
   },
   {
     "year": "2026",
@@ -171,26 +148,26 @@
   },
   {
     "year": "2026",
-    "title": "Variations in the Milky Way's Stellar Mass Function at [Fe/H] &lt; \u22121",
+    "title": "oMEGACat. IX. Chemical Tagging of Omega Centauri Populations with Machine-Learning-Inferred Abundances from the MUSE Spectrograph",
     "authors": [
-      "Li, Jiadong",
-      "Rix, Hans-Walter",
-      "Ting, Yuan-Sen",
-      "Wang, Yu-Ting",
-      "M\u00e9sz\u00e1ros, Szabolcs",
-      "Medan, Ilija",
-      "Liu, Chao",
-      "Yan, Zhiqiang",
-      "Smith, Peter J.",
-      "Qiu, Dan",
-      "Roman-Lopes, Alexandre",
-      "Green, Gregory M."
+      "Wang, Z.",
+      "Seth, A. C.",
+      "Clontz, C.",
+      "Neumayer, N.",
+      "H\u00e4berle, M.",
+      "Kamann, S.",
+      "Latour, M.",
+      "Nitschai, M. S.",
+      "Smith, P. J.",
+      "Souza, S. O.",
+      "Alfaro-Cuello, M.",
+      "Bellini, A."
     ],
-    "journal": "The Astrophysical Journal Letters",
-    "bibcode": "2026ApJ...998L..33L",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2601.19522",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260301041W",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2603.01041",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2603.01041"
   },
   {
     "year": "2026",
@@ -213,6 +190,29 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
     "arxivUrl": "https://arxiv.org/abs/2510.26341",
     "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
+  },
+  {
+    "year": "2026",
+    "title": "Variations in the Milky Way's Stellar Mass Function at [Fe/H] &lt; \u22121",
+    "authors": [
+      "Li, Jiadong",
+      "Rix, Hans-Walter",
+      "Ting, Yuan-Sen",
+      "Wang, Yu-Ting",
+      "M\u00e9sz\u00e1ros, Szabolcs",
+      "Medan, Ilija",
+      "Liu, Chao",
+      "Yan, Zhiqiang",
+      "Smith, Peter J.",
+      "Qiu, Dan",
+      "Roman-Lopes, Alexandre",
+      "Green, Gregory M."
+    ],
+    "journal": "The Astrophysical Journal Letters",
+    "bibcode": "2026ApJ...998L..33L",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2601.19522",
+    "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
   },
   {
     "year": "2025",
