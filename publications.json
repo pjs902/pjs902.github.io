@@ -1,6 +1,29 @@
 [
   {
     "year": "2026",
+    "title": "oMEGACat. X. Shedding Light on the Disrupted Dwarf Galaxy of Omega Centauri",
+    "authors": [
+      "Souza, S. O.",
+      "Neumayer, N.",
+      "Seth, A. C.",
+      "Wang, Z.",
+      "Clontz, C.",
+      "H\u00e4berle, M.",
+      "Nitschai, M. S.",
+      "Smith, P. J.",
+      "Matsuno, T.",
+      "Guiglion, G.",
+      "Feldmeier-Krause, A.",
+      "Kacharov, N."
+    ],
+    "journal": "The Astrophysical Journal",
+    "bibcode": "2026ApJ..1008..158S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..158S/abstract",
+    "arxivUrl": null,
+    "doiUrl": "https://doi.org/10.3847/1538-4357/ae930a"
+  },
+  {
+    "year": "2026",
     "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
     "authors": [
       "Dickson, Nolan",
@@ -14,52 +37,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.07010",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
-  },
-  {
-    "year": "2026",
-    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
-    "authors": [
-      "Whitaker, Matthew",
-      "Kerr, Evan",
-      "Seth, Anil",
-      "H\u00e4berle, Maximilian",
-      "Strader, Jay",
-      "Anderson, Jay",
-      "Bellini, Andrea",
-      "Clontz, Callie",
-      "Freeman, Zack",
-      "Griggio, Massimo",
-      "Kamann, Sebastian",
-      "Libralato, Mattia"
-    ],
-    "journal": "The Astrophysical Journal Letters",
-    "bibcode": "2026ApJ..1006L...1W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.18350",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
-  },
-  {
-    "year": "2026",
-    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
-    "authors": [
-      "Medan, Ilija",
-      "Casey, Andrew R.",
-      "Ji, Alexander P.",
-      "Otto, Jonah M.",
-      "Sharifi, Kayvon",
-      "Way, Zachary",
-      "McKenzie, Madeleine",
-      "Myers, Natalie R.",
-      "Stassun, Keivan G.",
-      "Smith, Peter J.",
-      "Tkachenko, Andrew",
-      "Chandra, Vedant"
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260722822M",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.22822",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
   },
   {
     "year": "2026",
@@ -86,6 +63,29 @@
   },
   {
     "year": "2026",
+    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
+    "authors": [
+      "Whitaker, Matthew",
+      "Kerr, Evan",
+      "Seth, Anil",
+      "H\u00e4berle, Maximilian",
+      "Strader, Jay",
+      "Anderson, Jay",
+      "Bellini, Andrea",
+      "Clontz, Callie",
+      "Freeman, Zack",
+      "Griggio, Massimo",
+      "Kamann, Sebastian",
+      "Libralato, Mattia"
+    ],
+    "journal": "The Astrophysical Journal Letters",
+    "bibcode": "2026ApJ..1006L...1W",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2606.18350",
+    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
+  },
+  {
+    "year": "2026",
     "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
     "authors": [
       "H\u00e4berle, Maximilian",
@@ -109,6 +109,29 @@
   },
   {
     "year": "2026",
+    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
+    "authors": [
+      "Medan, Ilija",
+      "Casey, Andrew R.",
+      "Ji, Alexander P.",
+      "Otto, Jonah M.",
+      "Sharifi, Kayvon",
+      "Way, Zachary",
+      "McKenzie, Madeleine",
+      "Myers, Natalie R.",
+      "Stassun, Keivan G.",
+      "Smith, Peter J.",
+      "Tkachenko, Andrew",
+      "Chandra, Vedant"
+    ],
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260722822M",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.22822",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
+  },
+  {
+    "year": "2026",
     "title": "Intermediate-mass black hole seeding in galactic nuclei from star cluster migration",
     "authors": [
       "Torniamenti, Stefano",
@@ -122,29 +145,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.14852",
     "doiUrl": "https://doi.org/10.48550/arXiv.2606.14852"
-  },
-  {
-    "year": "2026",
-    "title": "oMEGACat. X. Shedding light on the disrupted dwarf galaxy of Omega Centauri",
-    "authors": [
-      "Souza, Stefano",
-      "Neumayer, Nadine",
-      "Seth, Anil C.",
-      "Wang, Zixian",
-      "Clontz, Callie",
-      "H\u00e4berle, Maximilian",
-      "Nitschai, Maria S.",
-      "Smith, Peter J.",
-      "Matsuno, Tadafumi",
-      "Guiglion, Guillaume",
-      "Feldmeier-Krause, Anja",
-      "Kacharov, Nikolay"
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260323589S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260323589S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2603.23589",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2603.23589"
   },
   {
     "year": "2026",
@@ -168,6 +168,29 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2603.01041",
     "doiUrl": "https://doi.org/10.48550/arXiv.2603.01041"
+  },
+  {
+    "year": "2026",
+    "title": "oMEGACat. X. Shedding light on the disrupted dwarf galaxy of Omega Centauri",
+    "authors": [
+      "Souza, Stefano",
+      "Neumayer, Nadine",
+      "Seth, Anil C.",
+      "Wang, Zixian",
+      "Clontz, Callie",
+      "H\u00e4berle, Maximilian",
+      "Nitschai, Maria S.",
+      "Smith, Peter J.",
+      "Matsuno, Tadafumi",
+      "Guiglion, Guillaume",
+      "Feldmeier-Krause, Anja",
+      "Kacharov, Nikolay"
+    ],
+    "journal": "arXiv e-prints",
+    "bibcode": "2026arXiv260323589S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260323589S/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2603.23589",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2603.23589"
   },
   {
     "year": "2026",
