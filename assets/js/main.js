@@ -27,7 +27,7 @@
 
 	// Scrolly.
 		$('#nav a, .scrolly').scrolly({
-			speed: 1000,
+			speed: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 1000,
 			offset: function() { return $nav.height(); }
 		});
 

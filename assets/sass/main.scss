@@ -4,8 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700');
-@import url('fontawesome-all.min.css');
+// Open Sans and JetBrains Mono load from one <link> in index.html (display=swap).
 
 /*
 	Miniport by HTML5 UP
@@ -118,10 +117,27 @@
 
 	}
 
+	// Colour tokens. Text values clear WCAG AA (4.5:1) on white and on the #eef6fa figure panels;
+	// dark sections (.style4) redefine the accent pair for #303030.
+	:root {
+		--ink: #3e3e3e;
+		--text: #666;
+		--muted: #767676;
+		--accent: #17739f;
+		--accent-hover: #0f5f84;
+		--line: #eee;
+		--line-strong: #e4e4e4;
+		--surface-tint: #eef6fa;
+		--row-hover: #fafafa;
+		--nav-bg: #282828;
+		--dark-surface: #303030;
+		--tile: #444;
+	}
+
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: var(--text);
 		font-weight: 300;
 		font-size: 13pt;
 
@@ -129,11 +145,12 @@
 
 	a {
 		@include vendor('transition', 'color .2s ease-in-out');
-		color: #43B3E0;
+		color: var(--accent);
 		text-decoration: underline;
+		text-underline-offset: .15em;
 
 		&:hover {
-			color: #43bff0 !important;
+			color: var(--accent-hover) !important;
 		}
 
 		img {
@@ -143,7 +160,7 @@
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: var(--ink);
 	}
 
 	i, em {
@@ -163,13 +180,13 @@
 	}
 
 	blockquote {
-		border-left: solid 0.75em #eee;
+		border-left: solid 0.75em var(--line);
 		padding: 1em 0 1em 1.5em;
 		font-style: italic;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: var(--ink);
 		margin: 0 0 0.75em 0;
 	}
 
@@ -311,7 +328,7 @@
 
 	form {
 		label {
-			color: #3e3e3e;
+			color: var(--ink);
 			font-weight: 700;
 			display: block;
 			margin: 0 0 0.5em 0;
@@ -336,8 +353,8 @@
 			width: 100%;
 
 			&:focus {
-				background: #fafafa;
-				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+				background: var(--row-hover);
+				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px var(--accent-hover);
 			}
 		}
 
@@ -381,7 +398,7 @@
 			width: 100%;
 
 			tr {
-				border-top: solid 1px #eee;
+				border-top: solid 1px var(--line);
 
 				&:first-child {
 					border-top: 0;
@@ -479,18 +496,18 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: var(--accent);
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
 
 		&:hover {
-			background-color: #43bff0;
+			background-color: var(--accent-hover);
 			color: #fff !important;
 		}
 
 		&:active {
-			background-color: #3BA8D3;
+			background-color: var(--accent-hover);
 			top: 1px;
 		}
 
@@ -551,102 +568,27 @@
 			padding-left: 0;
 
 			a {
-				@include vendor('transition', 'top .2s ease-in-out');
-				display: block;
+				@include vendor('transition', ('top .2s ease-in-out', 'color .2s ease-in-out'));
+				display: grid;
+				place-items: center;
 				width: 48px;
 				height: 48px;
 				border-radius: 6px;
 				top: 0;
 				position: relative;
+				background: var(--tile);
+				color: #ccc;
+				box-shadow: inset 0 0 0 1px var(--nav-bg), inset 0 2px 1px 0 rgba(255, 255, 255, .1);
 
-				&:before {
-					@include vendor('background-image', ('url("images/bg.png")', 'linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2))'));
-					@include vendor('transition', 'background-color .2s ease-in-out');
-					background-color: #444;
-					border-radius: 6px;
-					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
-					display: block;
-					font-size: 26px;
-					height: 48px;
-					line-height: 48px;
-					text-align: center;
-					outline: 0;
-					overflow: hidden;
-					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
-					width: 48px;
-				}
-
-				&.fa-twitter {
-					background-color: #2DAAE4;
-				}
-
-				&.fa-facebook-f {
-					background-color: #3C5A98;
-				}
-
-				&.fa-dribbble {
-					background-color: #C4376B;
-				}
-
-				&.fa-linkedin-in {
-					background-color: #006599;
-				}
-
-				&.fa-tumblr {
-					background-color: #51718A;
-				}
-
-				&.fa-google-plus {
-					background-color: #DA2713;
-				}
-
-				&.fa-github {
-					background-color: #FAFAFA;
-				}
-
-				&.fa-rss {
-					background-color: #F2600B;
-				}
-
-				&.fa-instagram {
-					background-color: #E0D7C8;
-				}
-
-				&.fa-foursquare {
-					background-color: #39A3D4;
-				}
-
-				&.fa-skype {
-					background-color: #10BEF1;
-				}
-
-				&.fa-soundcloud {
-					background-color: #FE5419;
-				}
-
-				&.fa-youtube {
-					background-color: #BF2E25;
-				}
-
-				&.fa-blogger {
-					background-color: #FF6501;
-				}
-
-				&.fa-flickr {
-					background-color: #0062DB;
-				}
-
-				&.fa-vimeo {
-					background-color: #4C8AB0;
+				svg {
+					height: 26px;
+					width: auto;
+					fill: currentColor;
 				}
 
 				&:hover {
 					top: -5px;
-
-					&:before {
-						background-color: transparent;
-					}
+					color: #fff !important;
 				}
 			}
 		}
@@ -700,44 +642,6 @@
 		}
 	}
 
-/* Icons */
-
-	.icon {
-		@include icon;
-		text-decoration: none;
-
-		&:before {
-			font-size: 1.25em;
-		}
-
-		> .label {
-			display: none;
-		}
-
-		&.solid {
-			&:before {
-				font-weight: 900;
-			}
-		}
-
-		&.brands {
-			&:before {
-				font-family: 'Font Awesome 5 Brands';
-			}
-		}
-
-		&.featured {
-			color: #EA8A95;
-			display: block;
-			margin: 0 0 1.5em 0;
-			cursor: default;
-
-			&:before {
-				font-size: 6em;
-			}
-		}
-	}
-
 /* Wrappers */
 
 	.wrapper {
@@ -752,7 +656,7 @@
 		}
 
 		&.style2 {
-			background-color: #fafafa;
+			background-color: var(--row-hover);
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -762,9 +666,15 @@
 		}
 
 		&.style4 {
-			background-color: #303030;
+			--accent: #43b3e0;
+			--accent-hover: #8fd0ec;
+			background-color: var(--dark-surface);
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
+
+			:focus-visible {
+				outline-color: #fff;
+			}
 
 			h1, h2, h3, h4, h5, h6 {
 				color: #fff;
@@ -776,7 +686,7 @@
 				select,
 				textarea {
 					border: none;
-					background: #282828;
+					background: var(--nav-bg);
 
 					&:focus {
 						background: #252525;
@@ -789,7 +699,7 @@
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: var(--nav-bg);
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -817,7 +727,6 @@
 			display: block;
 			color: #fff;
 			text-decoration: none;
-			outline: 0;
 			font-weight: 600;
 			border-radius: 8px;
 			color: #fff;
@@ -880,7 +789,7 @@
 /* Copyright */
 
 	#copyright {
-		color: #666;
+		color: #999;
 		font-size: 1em;
 		line-height: 1em;
 		list-style: none;
@@ -1055,10 +964,6 @@
 
 					a {
 						top: 0 !important;
-
-						&:before {
-							background-color: transparent !important;
-						}
 					}
 				}
 			}
@@ -1192,6 +1097,20 @@
 		overflow: hidden;
 	}
 
+	// The skip link is the first Tab stop, so it must show itself when focused.
+	a.sr-only:focus {
+		left: 1em;
+		top: .5em;
+		width: auto;
+		height: auto;
+		z-index: 10001;
+		padding: .5em 1em;
+		background: #fff;
+		color: var(--accent);
+		border-radius: 6px;
+		box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
+	}
+
 	#nav li.nav-name {
 		position: absolute;
 		left: 1.5em;
@@ -1203,7 +1122,55 @@
 		color: #fff;
 	}
 
+	// Below 981px the absolutely positioned name crowds the centred links; the hero h1 carries it.
+	@include breakpoint('<=medium') {
+		#nav li.nav-name {
+			display: none;
+		}
+	}
+
+	@include breakpoint('<=small') {
+
+		// Five links fit 360px at .5em padding; the sideways scroll only kicks in below ~320px.
+		#nav ul {
+			white-space: nowrap;
+			overflow-x: auto;
+			scrollbar-width: none;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		#nav a {
+			padding: 0 .5em;
+		}
+	}
+
+	// 320px phones (iPhone SE class): tighten once more so Contact stays on screen.
+	@media (max-width: 359px) {
+		#nav a {
+			padding: 0 .35em;
+			font-size: .9em;
+		}
+	}
+
+	:focus-visible {
+		outline: 2px solid var(--accent);
+		outline-offset: 3px;
+	}
+
+	#nav a:focus-visible {
+		outline-color: #fff;
+		outline-offset: -2px;
+	}
+
 	/* Hero photo glow */
+
+	// The glow bleeds 1.5em past a full-width photo on phones; clip it sideways only.
+	#Home {
+		overflow-x: clip;
+	}
 
 	.hero-photo {
 		position: relative;
@@ -1217,6 +1184,25 @@
 			background: radial-gradient(circle, rgba(67, 179, 224, .22), rgba(67, 179, 224, 0) 70%);
 			z-index: -1;
 		}
+	}
+
+	// width/height attributes reserve the square before load; CSS keeps it fluid.
+	.hero-photo img {
+		height: auto;
+	}
+
+	.nowrap {
+		white-space: nowrap;
+	}
+
+	// Asymmetric uncertainty (e.g. 446 +75/−72): upper bound stacked over lower, like a sup/sub pair.
+	.math-err {
+		display: inline-flex;
+		flex-direction: column;
+		vertical-align: middle;
+		margin: 0 .15em 0 .1em;
+		font-size: .72em;
+		line-height: 1.05;
 	}
 
 	.hero-title {
@@ -1248,23 +1234,22 @@
 		border-radius: 16px;
 		overflow: hidden;
 		background: #fff;
-		border: 1px solid #e4e4e4;
+		border: 1px solid var(--line-strong);
 		box-shadow: 0 2px 10px rgba(0, 0, 0, .04);
 		cursor: pointer;
 		transition: transform .25s ease, box-shadow .25s ease;
 
 		&:hover,
-		&:focus-visible {
+		&:focus-within {
 			transform: translateY(-6px);
 			box-shadow: 0 22px 40px rgba(0, 0, 0, .12);
-			outline: none;
 		}
 	}
 
 	.rp-card-figure {
 		position: relative;
 		height: 220px;
-		background: #eef6fa;
+		background: var(--surface-tint);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -1309,27 +1294,46 @@
 
 	.rp-card-title {
 		font: 700 18px/1.4 'Open Sans', sans-serif;
-		color: #3e3e3e;
+		color: var(--ink);
+		margin: 0;
 	}
 
 	.rp-card-tagline {
 		font-size: 14px;
 		line-height: 1.65;
-		color: #767676;
+		color: var(--muted);
 		margin-top: 10px;
 	}
 
-	.rp-card-footer {
+	// A real <button>; the doubled class outranks the template's global button skin.
+	.rp-card-footer.rp-card-footer {
+		width: 100%;
+		max-width: none;
+		min-height: 44px;
 		margin-top: 20px;
-		padding-top: 16px;
-		border-top: 1px solid #eee;
+		padding: 16px 0 0;
+		border: 0;
+		border-top: 1px solid var(--line);
+		border-radius: 0;
+		background: none;
+		box-shadow: none;
+		text-shadow: none;
 		display: flex;
 		align-items: center;
 		gap: 6px;
 		font: 600 12px 'JetBrains Mono', monospace;
-		color: #43B3E0;
+		color: var(--accent) !important;
 		text-transform: uppercase;
 		letter-spacing: .04em;
+
+		&:hover {
+			background: none;
+			color: var(--accent-hover) !important;
+		}
+
+		&:active {
+			top: 0;
+		}
 	}
 
 	.rp-card-chevron {
@@ -1345,12 +1349,12 @@
 		display: none;
 		margin-top: 18px;
 		padding-top: 18px;
-		border-top: 1px solid #eee;
+		border-top: 1px solid var(--line);
 
 		p {
 			font-size: 13.5px;
 			line-height: 1.8;
-			color: #767676;
+			color: var(--muted);
 			margin: 0 0 16px;
 		}
 	}
@@ -1369,9 +1373,9 @@
 		display: inline-flex;
 		align-items: center;
 		gap: .4rem;
-		font: 600 11px 'JetBrains Mono', monospace;
+		font: 600 12px 'JetBrains Mono', monospace;
 		letter-spacing: .02em;
-		color: #43B3E0;
+		color: var(--accent);
 		border: 1px solid #dde8ef;
 		border-radius: 999px;
 		padding: 5px 13px;
@@ -1388,14 +1392,17 @@
 
 	.pub-list {
 		margin-top: 20px;
-		max-height: 640px;
-		overflow-y: auto;
-		padding-right: 8px;
 		text-align: left;
 	}
 
+	.pub-note {
+		color: var(--muted);
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+
 	.pub-loading {
-		color: #999;
+		color: var(--muted);
 		font: 13px 'JetBrains Mono', monospace;
 	}
 
@@ -1403,19 +1410,28 @@
 		display: flex;
 		gap: 22px;
 		padding: 18px 10px;
-		border-top: 1px solid #eee;
+		border-top: 1px solid var(--line);
 		transition: background .2s;
 
 		&:hover {
-			background: #fafafa;
+			background: var(--row-hover);
 		}
+	}
+
+	// Year groups: the year prints once and its first row gets the heavier rule.
+	.pub-row-year {
+		border-top-color: #ccc;
+	}
+
+	.pub-row-year:not(:first-child) {
+		margin-top: 14px;
 	}
 
 	.pub-year {
 		flex: none;
 		width: 52px;
 		font: 700 15px 'JetBrains Mono', monospace;
-		color: #43B3E0;
+		color: var(--accent);
 		padding-top: 1px;
 	}
 
@@ -1425,22 +1441,22 @@
 
 	.pub-title {
 		font: 600 14.5px/1.45 'Open Sans', sans-serif;
-		color: #3e3e3e;
+		color: var(--ink);
 		text-decoration: none;
 
 		&:hover {
-			color: #43B3E0;
+			color: var(--accent);
 		}
 	}
 
 	.pub-authors {
 		font-size: 12.5px;
 		line-height: 1.6;
-		color: #999;
+		color: var(--muted);
 		margin-top: 5px;
 
 		b {
-			color: #3e3e3e;
+			color: var(--ink);
 			font-weight: 700;
 		}
 	}
@@ -1454,6 +1470,55 @@
 
 		.pub-journal {
 			font: italic 12.5px 'Open Sans', sans-serif;
-			color: #767676;
+			color: var(--muted);
+		}
+
+		.pub-kind {
+			font: 600 11px 'JetBrains Mono', monospace;
+			letter-spacing: .04em;
+			text-transform: uppercase;
+			color: var(--text);
+			background: var(--surface-tint);
+			border-radius: 4px;
+			padding: 2px 7px;
+		}
+	}
+	@include breakpoint('<=small') {
+		// Year becomes a header above its group; titles get the full width.
+		.pub-row {
+			display: block;
+			padding: 14px 4px;
+		}
+
+		.pub-year {
+			width: auto;
+			padding: 0;
+
+			&:empty,
+			&:has(> .sr-only) {
+				display: none;
+			}
+		}
+
+		.pub-row-year .pub-year {
+			margin-bottom: 8px;
+		}
+	}
+
+	/* Reduced motion: keep every state change, drop the movement. */
+
+	@media (prefers-reduced-motion: reduce) {
+		.rp-card,
+		.rp-card-chevron {
+			transition: none;
+		}
+
+		.rp-card:hover,
+		.rp-card:focus-within {
+			transform: none;
+		}
+
+		ul.social li a:hover {
+			top: 0;
 		}
 	}
