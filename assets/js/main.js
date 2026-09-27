@@ -4,31 +4,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
-
-	var	$window = $(window),
-		$body = $('body'),
-		$nav = $('#nav');
-
-	// Breakpoints.
-		breakpoints({
-			xlarge:  [ '1281px',  '1680px' ],
-			large:   [ '981px',   '1280px' ],
-			medium:  [ '737px',   '980px'  ],
-			small:   [ null,      '736px'  ]
-		});
-
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
-
-	// Scrolly.
-		$('#nav a, .scrolly').scrolly({
-			speed: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 1000,
-			offset: function() { return $nav.height(); }
-		});
-
-})(jQuery);
+// Hold transitions until the page has loaded (see body.is-preload in main.scss).
+// Nav links scroll natively (scroll-behavior in main.scss), so no scroll plugin is needed.
+window.addEventListener('load', function () {
+	window.setTimeout(function () {
+		document.body.classList.remove('is-preload');
+	}, 100);
+});

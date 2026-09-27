@@ -78,6 +78,16 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.5em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 body {
   padding-top: 3.5em;
 }
@@ -1502,7 +1512,7 @@ ul.actions li:first-child {
 .wrapper {
   background-image: url("images/bg.png");
   box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-  padding: 8em 0 8em 0;
+  padding: 5.5em 0;
   text-align: center;
 }
 .wrapper.style1 {
@@ -1926,6 +1936,11 @@ a.sr-only:focus {
   overflow-x: clip;
 }
 
+@media screen and (min-width: 1281px) {
+  #Home.wrapper {
+    padding-top: 7em;
+  }
+}
 .hero-photo {
   position: relative;
   display: inline-block;
@@ -1968,8 +1983,8 @@ a.sr-only:focus {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: start;
-  gap: 1.75rem;
-  margin-top: 2.5rem;
+  gap: 2rem;
+  margin-top: 2rem;
   text-align: left;
 }
 
@@ -2010,7 +2025,8 @@ a.sr-only:focus {
 }
 
 .rp-card-figure-placeholder {
-  font: 600 11px "JetBrains Mono", monospace;
+  font: 600 11px "Open Sans", sans-serif;
+  font-variant-numeric: tabular-nums;
   color: #6fa8c6;
   letter-spacing: 0.03em;
 }
@@ -2027,7 +2043,8 @@ a.sr-only:focus {
   background: rgba(20, 20, 20, 0.6);
   backdrop-filter: blur(4px);
   color: #fff;
-  font: 600 10px "JetBrains Mono", monospace;
+  font: 600 10px "Open Sans", sans-serif;
+  font-variant-numeric: tabular-nums;
   padding: 4px 10px;
   border-radius: 999px;
   letter-spacing: 0.02em;
@@ -2065,10 +2082,10 @@ a.sr-only:focus {
   display: flex;
   align-items: center;
   gap: 6px;
-  font: 600 12px "JetBrains Mono", monospace;
+  font: 600 13px "Open Sans", sans-serif;
   color: var(--accent) !important;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
 }
 .rp-card-footer.rp-card-footer:hover {
   background: none;
@@ -2114,7 +2131,8 @@ a.sr-only:focus {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font: 600 12px "JetBrains Mono", monospace;
+  font: 600 12px "Open Sans", sans-serif;
+  font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
   color: var(--accent);
   border: 1px solid #dde8ef;
@@ -2130,7 +2148,8 @@ a.sr-only:focus {
 
 /* Publications list */
 .pub-list {
-  margin-top: 20px;
+  max-width: 54rem;
+  margin: 20px auto 0;
   text-align: left;
 }
 
@@ -2142,13 +2161,14 @@ a.sr-only:focus {
 
 .pub-loading {
   color: var(--muted);
-  font: 13px "JetBrains Mono", monospace;
+  font: 13px "Open Sans", sans-serif;
+  font-variant-numeric: tabular-nums;
 }
 
 .pub-row {
   display: flex;
   gap: 22px;
-  padding: 18px 10px;
+  padding: 16px 0;
   border-top: 1px solid var(--line);
   transition: background 0.2s;
 }
@@ -2167,13 +2187,16 @@ a.sr-only:focus {
 .pub-year {
   flex: none;
   width: 52px;
-  font: 700 15px "JetBrains Mono", monospace;
+  font: 700 15px "Open Sans", sans-serif;
+  font-variant-numeric: tabular-nums;
   color: var(--accent);
   padding-top: 1px;
 }
 
 .pub-main {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .pub-title {
@@ -2208,7 +2231,8 @@ a.sr-only:focus {
   color: var(--muted);
 }
 .pub-meta .pub-kind {
-  font: 600 11px "JetBrains Mono", monospace;
+  font: 600 11px "Open Sans", sans-serif;
+  font-variant-numeric: tabular-nums;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text);
@@ -2233,6 +2257,282 @@ a.sr-only:focus {
     margin-bottom: 8px;
   }
 }
+/* Hero actions, pills, panel, publications groups. */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1.1em;
+  border: 1px solid #cfd8de;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--accent);
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.pill:hover {
+  border-color: var(--accent);
+  background: #f2f8fb;
+}
+
+.style4 .pill {
+  border-color: rgba(255, 255, 255, 0.35);
+  background: transparent;
+  text-shadow: none;
+}
+.style4 .pill:hover {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+#Home .col-8 {
+  text-align: left;
+}
+#Home .col-8 p {
+  max-width: 62ch;
+}
+
+.hero-title {
+  margin-bottom: 0.3em;
+}
+
+.hero-statement {
+  display: block;
+  margin: 0 0 1.1em;
+  max-width: 34ch;
+  font-size: 1.35em;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6em;
+  margin: 0 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.rp-card-cite {
+  display: block;
+  margin: 10px 0 0;
+  font: 600 13px/1.5 "Open Sans", sans-serif;
+  color: var(--muted);
+}
+
+.rp-panel {
+  grid-column: 1/-1;
+  padding: 26px;
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+  background: #fff;
+  text-align: left;
+}
+.rp-panel .rp-card-details {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.rp-grid {
+  align-items: stretch;
+}
+
+.rp-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.rp-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rp-card-footer.rp-card-footer {
+  margin-top: auto;
+}
+
+.rp-card-body > :has(+ .rp-card-footer) {
+  margin-bottom: 20px;
+}
+
+#nav li.nav-actions {
+  display: flex;
+  gap: 0.25em;
+  position: absolute;
+  right: 1.5em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 980px) {
+  #nav li.nav-actions {
+    display: none;
+  }
+}
+.pub-group {
+  margin: 0 0 0.6em;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.pub-all {
+  margin-top: 3.5em;
+  text-align: left;
+}
+.pub-all > summary {
+  width: fit-content;
+  padding: 12px 0;
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+}
+.pub-all[open] > summary {
+  margin-bottom: 8px;
+}
+
+.contact-cv {
+  margin-top: 1.75em;
+}
+
+#Contact footer {
+  font-size: 0.8em;
+}
+#Contact footer a {
+  color: inherit;
+}
+
+h1, h2 {
+  letter-spacing: -0.02em;
+}
+
+.hero-statement {
+  font-size: 1.45em;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+}
+
+.rp-card-title {
+  font-size: 19px;
+  letter-spacing: -0.01em;
+}
+
+.rp-card-tagline {
+  font-size: 15px;
+}
+
+.rp-card-details p {
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: var(--text);
+}
+
+.pub-title {
+  font-size: 16.5px;
+}
+
+.pub-authors,
+.pub-meta .pub-journal {
+  font-size: 14px;
+}
+
+.rp-card-figure {
+  cursor: zoom-in;
+}
+
+.rp-zoom.rp-zoom {
+  display: inline-flex;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  min-width: 0;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  color: var(--accent) !important;
+}
+.rp-zoom.rp-zoom:hover {
+  background: #fff;
+  color: var(--accent-hover) !important;
+}
+
+.fig-zoom {
+  cursor: zoom-out;
+  outline: none;
+  width: min(1100px, 94vw);
+  max-width: none;
+  max-height: 92vh;
+  padding: 24px 24px 16px;
+  border: 0;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+}
+.fig-zoom img {
+  display: block;
+  width: 100%;
+  max-height: calc(92vh - 110px);
+  object-fit: contain;
+}
+.fig-zoom::backdrop {
+  background: rgba(16, 24, 30, 0.78);
+}
+.fig-zoom[open], .fig-zoom[open]::backdrop {
+  transition: opacity 0.12s ease-out;
+}
+@starting-style {
+  .fig-zoom[open], .fig-zoom[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .fig-zoom {
+    width: 100vw;
+    padding: 12px 8px 8px;
+    border-radius: 12px;
+  }
+}
+.fig-zoom-caption {
+  margin: 12px 48px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+  text-align: left;
+}
+
+.fig-zoom-close.fig-zoom-close {
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  min-width: 0;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  box-shadow: none;
+  color: var(--ink) !important;
+}
+.fig-zoom-close.fig-zoom-close:hover {
+  background: var(--row-hover);
+}
+
 /* Reduced motion: keep every state change, drop the movement. */
 @media (prefers-reduced-motion: reduce) {
   .rp-card,

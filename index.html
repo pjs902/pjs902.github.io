@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300;1,600&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet" />
 	<meta name="google-site-verification" content="cEtdj7oFOYCn8qRcGMspQ7A5FXVHisq3kn0WKPjHSBU" />
 	<meta name="keywords"
 		content="Peter Smith, astro, astronomy, astrophysics, globular clusters, dynamics, black holes, mpia, omegacat, sdss, mwm" />
@@ -81,7 +81,7 @@
 			],
 			"email": "pesmith@mpia.de",
 			"url": "https://pjs902.github.io",
-			"description": "PhD student at MPIA working on dynamical models of massive star clusters, focusing on the internal dynamics of globular clusters and the study of dark mass in their centers."
+			"description": "PhD student at MPIA working on dynamical models of massive star clusters, focusing on the internal dynamics of globular clusters and the study of dark mass in their centres."
 			}
 		</script>
 
@@ -104,8 +104,8 @@
 			<li><a href="#Home">Home</a></li>
 			<li><a href="#Research">Research</a></li>
 			<li><a href="#Publications">Publications</a></li>
-			<li><a href="#CV">CV</a></li>
 			<li><a href="#Contact">Contact</a></li>
+			<li class="nav-actions"><a href="mailto:pesmith@mpia.de">Email</a><a href="assets/pdf/PeterSmith_CV.pdf" download>CV</a></li>
 		</ul>
 	</nav>
 
@@ -118,13 +118,20 @@
 						<!-- Insert a rounded image, stored at images/me.webp -->
 						<div class="hero-photo">
 							<span class="image fit rounded">
-								<img src="images/me.webp" alt="A photo of me presenting results" width="1428" height="1428" style="border-radius: 50%;" loading="eager" />
+								<img src="images/me.webp" alt="A photo of me presenting results" width="1428" height="1428" style="border-radius: 50%;" loading="eager" fetchpriority="high" />
 							</span>
 						</div>
 					</div>
 					<div class="col-8 col-7-large col-12-medium">
 						<header>
 							<h1 class="hero-title"><b>Peter Smith</b></h1>
+							<p class="hero-statement">I build dynamical models of stellar systems, from globular clusters to the Milky Way, to reveal their hidden mass and reconstruct how they formed.</p>
+							<ul class="hero-actions">
+								<li><a class="pill" href="mailto:pesmith@mpia.de">Email</a></li>
+								<li><a class="pill" href="assets/pdf/PeterSmith_CV.pdf" download>CV</a></li>
+								<li><a class="pill" href="https://ui.adsabs.harvard.edu/search/p_=0&amp;q=orcid%3A0000-0002-7489-5244&amp;sort=date%20desc%2C%20bibcode%20desc" rel="external">ADS</a></li>
+								<li><a class="pill" href="https://orcid.org/0000-0002-7489-5244" rel="external">ORCID</a></li>
+							</ul>
 						</header>
 						<p>I'm a PhD student at the <a href="https://mpia.de/en" rel="external">MPIA</a>
 							in Heidelberg as part of the <a href="https://www.imprs-hd.mpg.de/" rel="external">
@@ -156,7 +163,6 @@
 			<div class="container">
 				<header>
 					<h2>Research</h2>
-					<p>Dynamical modelling of dense stellar systems.</p>
 				</header>
 				<div class="rp-grid" id="rp-grid"></div>
 				<noscript><p>The project summaries need JavaScript. My papers are listed on <a href="https://ui.adsabs.harvard.edu/search/p_=0&amp;q=orcid%3A0000-0002-7489-5244&amp;sort=date%20desc%2C%20bibcode%20desc" rel="external">ADS</a>.</p></noscript>
@@ -179,26 +185,13 @@
 			</div>
 		</article>
 
-		<!-- Portfolio -->
-		<article id="CV" class="wrapper style1">
-			<div class="container">
-				<header>
-					<h2>CV</h2>
-					<!-- CV is in assets/pdf/PeterSmith_CV.pdf, insert a link to it below -->
-					<p>
-						Download a PDF of my <a href="assets/pdf/PeterSmith_CV.pdf" download>CV</a>
-						or <a href="#Contact">contact me</a> for more information.
-					</p>
-				</header>
-			</div>
-		</article>
-
 		<!-- Contact -->
 		<article id="Contact" class="wrapper style4">
 			<div class="container medium">
 				<header>
 					<h2>Contact</h2>
 					<p>Send me an email at <a href="mailto:pesmith@mpia.de">pesmith@mpia.de</a></p>
+					<p class="contact-cv"><a class="pill" href="assets/pdf/PeterSmith_CV.pdf" download>CV (PDF)</a></p>
 					<div class="col-12">
 						<hr />
 						<h3>Elsewhere</h3>
@@ -242,20 +235,17 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script>
 		(function ($) {
 			var projects = [
 				{
 					title: "Pulsar Timing as a Dynamical Probe",
+					cite: "Smith et al. 2024, ApJ 975, 268",
 					tagline: "Constraining dark remnants in 47 Tuc and Terzan 5 using millisecond pulsar timing",
 					tags: ["Pulsars", "Globular Clusters"],
 					description: [
-						"We present a technique combining multimass equilibrium dynamical models with millisecond pulsar timing data to characterise mass distributions and dark remnant populations in Milky Way globular clusters — without requiring conventional stellar kinematic observations.",
+						"I developed a technique combining multimass equilibrium dynamical models with millisecond pulsar timing data to characterize mass distributions and dark remnant populations in Milky Way globular clusters — without requiring conventional stellar kinematic observations.",
 						"Applied to 47 Tuc, the method constrains the stellar-mass black hole population to <span class='nowrap'>446<span class='math-err'><span>+75</span><span>−72</span></span> M☉</span>, arguing against a large central intermediate-mass black hole. In Terzan 5 — a heavily obscured bulge cluster with the largest millisecond pulsar population in the Milky Way — stellar kinematics are too sparse to constrain the dynamics alone, making pulsar timing an essential probe."
 					],
 					figure: "images/BH_pulsar_inference.webp",
@@ -267,11 +257,12 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 				},
 				{
 					title: "oMEGACat: 3D Kinematics of Omega Centauri",
+					cite: "Häberle et al. 2025, ApJ 983, 95",
 					tagline: "Velocity dispersion, kinematic distance, anisotropy, and energy equipartition in Omega Cen",
 					tags: ["Omega Centauri", "HST"],
 					description: [
-						"Using the oMEGACat catalog — 1.4 million proper motion measurements and 300,000 spectroscopic radial velocities — we analysed the full 3D internal kinematics of Omega Centauri, the Milky Way's most massive globular cluster and likely the stripped nucleus of an accreted dwarf galaxy (Häberle et al. 2025).",
-						"We measured a kinematic distance of 5494 ± 61 pc, the most precise available, and found the velocity dispersion profile to be isotropic in the core with increasing radial anisotropy at larger radii. Metallicity shows no correlation with kinematics, indicating well-mixed stellar populations, while partial energy equipartition decreases from the center outwards. These results serve as a new reference for future dynamical modelling of the cluster, an effort which I will lead within the oMEGACat collaboration."
+						"Using the oMEGACat catalogue — 1.4 million proper motion measurements and 300,000 spectroscopic radial velocities — we analyzed the full 3D internal kinematics of Omega Centauri, the Milky Way's most massive globular cluster and likely the stripped nucleus of an accreted dwarf galaxy.",
+						"We measured a kinematic distance of 5494 ± 61 pc, the most precise available, and found the velocity dispersion profile to be isotropic in the core with increasing radial anisotropy at larger radii. Metallicity shows no correlation with kinematics, indicating well-mixed stellar populations, while partial energy equipartition decreases from the centre outwards. These results serve as a new reference for future dynamical modelling of the cluster, an effort which I am leading within the oMEGACat collaboration."
 					],
 					figure: "images/los_velocity_maps_2d_n100_m18_revised.webp",
 					figureAlt: "2D line-of-sight velocity maps of Omega Centauri",
@@ -282,10 +273,11 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 				},
 				{
 					title: "Multimass Modelling of Milky Way Globular Clusters",
+					cite: "Dickson et al. 2024, MNRAS 529, 331",
 					tagline: "Present-day black hole populations across 34 Milky Way globular clusters",
 					tags: ["Globular Clusters", "Black Holes"],
 					description: [
-						"We apply multimass dynamical models to 34 Milky Way globular clusters to characterise their present-day black hole populations, using diverse observational constraints to probe the dark mass content of each system. Black hole mass fractions typically fall between 0 and 1% of total cluster mass, with Omega Centauri a notable outlier requiring above 5%.",
+						"We apply multimass dynamical models to 34 Milky Way globular clusters to characterize their present-day black hole populations, using diverse observational constraints to probe the dark mass content of each system. Black hole mass fractions typically fall between 0 and 1% of total cluster mass, with Omega Centauri a notable outlier requiring above 5%.",
 						"The results reveal a clear anti-correlation between black hole content and mass segregation among visible stars, and a positive correlation between remnant populations and cluster dynamical age — constraints that have direct implications for both cluster evolution and gravitational wave source formation channels. I led the validation work, fitting multimass models to realistic mock data extracted from N-body simulations to establish the methodology's reliability."
 					],
 					figure: "images/BHs_inference.webp",
@@ -341,7 +333,9 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 						'<div class="rp-card" data-idx="' + i + '">' +
 						'  <div class="rp-card-figure">' +
 						(p.figure
-							? '<img src="' + p.figure + '" alt="' + escapeHtml(p.figureAlt || '') + '" loading="lazy">'
+							? '<img src="' + p.figure + '" alt="' + escapeHtml(p.figureAlt || '') + '" loading="lazy">' +
+							'<button type="button" class="rp-zoom" aria-label="Enlarge figure: ' + escapeHtml(p.title) + '">' +
+							'<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/></svg></button>'
 							: '<span class="rp-card-figure-placeholder">figure in prep</span>') +
 						'    <div class="rp-card-tags">' +
 						$.map(p.tags, function (t) { return '<span class="rp-tag">' + escapeHtml(t) + '</span>'; }).join('') +
@@ -350,6 +344,7 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 						'  <div class="rp-card-body">' +
 						'    <h3 class="rp-card-title">' + escapeHtml(p.title) + '</h3>' +
 						'    <div class="rp-card-tagline">' + escapeHtml(p.tagline) + '</div>' +
+						(p.cite ? '<p class="rp-card-cite">' + escapeHtml(p.cite) + '</p>' : '') +
 						'    <button type="button" class="rp-card-footer" aria-expanded="false" aria-controls="rp-details-' + i + '">' +
 						'      <span class="rp-card-cta">Show details</span><span class="sr-only">: ' + escapeHtml(p.title) + '</span>' +
 						'      <span class="rp-card-chevron" aria-hidden="true">&darr;</span>' +
@@ -376,7 +371,64 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 				$card.toggleClass('is-expanded', !expanded);
 				$card.find('.rp-card-footer').attr('aria-expanded', String(!expanded));
 				$card.find('.rp-card-cta').text(!expanded ? 'Hide details' : 'Show details');
+				placePanel($card, !expanded);
 			}
+
+			// A card's figure opens full size in a dialog.
+			function zoomFigure(img) {
+				if (!img) return;
+				// Browsers without <dialog> get the image in a new tab instead.
+				if (typeof HTMLDialogElement !== 'function') { window.open(img.src, '_blank', 'noopener'); return; }
+				var dialog = document.getElementById('fig-zoom');
+				if (!dialog) {
+					dialog = $(
+						'<dialog id="fig-zoom" class="fig-zoom" tabindex="-1">' +
+						'  <img alt="">' +
+						'  <p class="fig-zoom-caption"></p>' +
+						'  <button type="button" class="fig-zoom-close" aria-label="Close figure">' +
+						'    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>' +
+						'  </button>' +
+						'</dialog>'
+					).appendTo('body')[0];
+					// One click opens the figure, the next click anywhere closes it.
+					$(dialog).on('click', closeZoom);
+					$(dialog).on('cancel', function (e) { e.preventDefault(); closeZoom(); });
+				}
+				var big = dialog.querySelector('img');
+				big.src = img.src;
+				big.alt = img.alt;
+				dialog.querySelector('.fig-zoom-caption').textContent = img.alt;
+				dialog.showModal();
+				// Focus the dialog itself, so a mouse open doesn't ring the close button.
+				dialog.focus();
+			}
+
+			function closeZoom() {
+				document.getElementById('fig-zoom').close();
+			}
+
+			// One card open at a time; its details element moves into a full-width
+			// panel inserted after the last card of its grid row, so the grid itself never reflows.
+			function placePanel($card, open) {
+				var details = '#' + $card.find('.rp-card-footer').attr('aria-controls');
+				if (!open) {
+					$card.find('.rp-card-body').append($(details));
+					$('#rp-panel').remove();
+					return;
+				}
+				// Close any other open card first (each close returns its details and removes the panel).
+				var $grid = $('#rp-grid');
+				$grid.find('.rp-card.is-expanded').not($card).each(function () { toggleCard($(this)); });
+				var $panel = $('#rp-panel');
+				if (!$panel.length) $panel = $('<div id="rp-panel" class="rp-panel"></div>');
+				var $cards = $grid.children('.rp-card');
+				var cols = getComputedStyle($grid[0]).gridTemplateColumns.split(' ').length;
+				var idx = $cards.index($card);
+				var rowEnd = Math.min(Math.floor(idx / cols) * cols + cols - 1, $cards.length - 1);
+				$panel.append($(details)).insertAfter($cards.eq(rowEnd));
+				$panel[0].scrollIntoView({ block: 'nearest' });
+			}
+
 
 			// ── Publications: fetch from publications.json, fall back to a small static list ──
 			function fallbackPublications() {
@@ -396,42 +448,57 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 
 			var PUB_KINDS = { eprint: 'Preprint', proposal: 'Proposal' };
 
-			function renderPublications(pubs) {
-				var MAX_SHOWN = 6;
-				var $list = $('#pub-list');
-				$list.empty();
-				$.each(pubs, function (i, pub) {
-					// Year prints once per group; repeats stay available to screen readers.
-					var newYear = i === 0 || pubs[i - 1].year !== pub.year;
-					var kind = PUB_KINDS[pub.doctype];
-					// Same cleaned title as the visible link, flattened to text for aria-labels.
-					var plain = escapeHtml($('<div>').html(formatPubTitle(pub.title)).text());
-					var authors = pub.authors || [];
-					var shown = authors.slice(0, MAX_SHOWN);
-					var truncated = authors.length > MAX_SHOWN;
-					var meShown = shown.some(function (name, idx) { return isMe(pub, name, idx); });
-					var authorsHtml = $.map(shown, function (name, idx) {
-						var text = escapeHtml(name) + (idx < shown.length - 1 ? ', ' : '');
-						return isMe(pub, name, idx) ? '<b>' + text + '</b>' : '<span>' + text + '</span>';
-					}).join('') + (truncated ? ' et al.' : '')
-						+ (truncated && !meShown ? ' (incl. <b>PJS</b>)' : '');
+			// Hand-picked, in this order; everything else stays in the chronological list.
+			var SELECTED = ['2024ApJ...975..268S', '2024MNRAS.529..331D', '2025ApJ...983...95H'];
 
-					$list.append(
-						'<div class="pub-row' + (newYear ? ' pub-row-year' : '') + '">' +
-						'  <div class="pub-year">' + (newYear ? escapeHtml(pub.year) : '<span class="sr-only">' + escapeHtml(pub.year) + '</span>') + '</div>' +
-						'  <div class="pub-main">' +
-						'    <a href="' + pub.adsUrl + '" target="_blank" rel="external" class="pub-title">' + formatPubTitle(pub.title) + '</a>' +
-						'    <div class="pub-authors">' + authorsHtml + '</div>' +
-						'    <div class="pub-meta">' +
-						'      <span class="pub-journal">' + escapeHtml(pub.journal) + '</span>' +
-						(kind ? '<span class="pub-kind">' + kind + '</span>' : '') +
-						'      <a href="' + pub.adsUrl + '" target="_blank" rel="external" class="rp-link" aria-label="ADS: ' + plain + '">ADS</a>' +
-						(pub.arxivUrl ? '<a href="' + pub.arxivUrl + '" target="_blank" rel="external" class="rp-link" aria-label="arXiv: ' + plain + '">arXiv</a>' : '') +
-						'    </div>' +
-						'  </div>' +
-						'</div>'
-					);
+
+			function pubRow(pub, showYear) {
+				var MAX_SHOWN = 6;
+				var kind = PUB_KINDS[pub.doctype];
+				// Same cleaned title as the visible link, flattened to text for aria-labels.
+				var plain = escapeHtml($('<div>').html(formatPubTitle(pub.title)).text());
+				var authors = pub.authors || [];
+				var shown = authors.slice(0, MAX_SHOWN);
+				var truncated = authors.length > MAX_SHOWN;
+				var meShown = shown.some(function (name, idx) { return isMe(pub, name, idx); });
+				var authorsHtml = $.map(shown, function (name, idx) {
+					var text = escapeHtml(name) + (idx < shown.length - 1 ? ', ' : '');
+					return isMe(pub, name, idx) ? '<b>' + text + '</b>' : '<span>' + text + '</span>';
+				}).join('') + (truncated ? ' et al.' : '')
+					+ (truncated && !meShown ? ' (incl. <b>PJS</b>)' : '');
+
+				return '<div class="pub-row' + (showYear ? ' pub-row-year' : '') + '">' +
+					'  <div class="pub-year">' + (showYear ? escapeHtml(pub.year) : '<span class="sr-only">' + escapeHtml(pub.year) + '</span>') + '</div>' +
+					'  <div class="pub-main">' +
+					(pub.adsUrl
+						? '    <a href="' + pub.adsUrl + '" target="_blank" rel="external" class="pub-title">' + formatPubTitle(pub.title) + '</a>'
+						: '    <span class="pub-title">' + formatPubTitle(pub.title) + '</span>') +
+					'    <div class="pub-authors">' + authorsHtml + '</div>' +
+					'    <div class="pub-meta">' +
+					'      <span class="pub-journal">' + escapeHtml(pub.journal) + '</span>' +
+					(kind ? '<span class="pub-kind">' + kind + '</span>' : '') +
+					(pub.me === 0 ? '<span class="pub-kind">First author</span>' : '') +
+					(pub.adsUrl ? '<a href="' + pub.adsUrl + '" target="_blank" rel="external" class="rp-link" aria-label="ADS: ' + plain + '">ADS</a>' : '') +
+					(pub.arxivUrl ? '<a href="' + pub.arxivUrl + '" target="_blank" rel="external" class="rp-link" aria-label="arXiv: ' + plain + '">arXiv</a>' : '') +
+					'    </div>' +
+					'  </div>' +
+					'</div>';
+			}
+
+			function chronological(pubs) {
+				// Year prints once per group; repeats stay available to screen readers.
+				return $.map(pubs, function (pub, i) { return pubRow(pub, i === 0 || pubs[i - 1].year !== pub.year); }).join('');
+			}
+
+			function renderPublications(pubs) {
+				var $list = $('#pub-list');
+				var picked = $.map(SELECTED, function (code) {
+					return $.grep(pubs, function (p) { return (p.bibcode || p.adsUrl || '').indexOf(code) > -1; })[0] || null;
 				});
+				$list.html(
+					(picked.length ? '<h3 class="pub-group">Selected</h3>' + $.map(picked, function (p) { return pubRow(p, true); }).join('') : '') +
+					'<details class="pub-all" open><summary>All papers</summary>' + chronological(pubs) + '</details>'
+				);
 			}
 
 			// ── Nav scroll-spy ──
@@ -467,19 +534,33 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 
 				// The whole card is a mouse target; keyboard users get the native <button>.
 				// Clicks on paper links or inside the open details must not toggle (or block navigation).
+				$(window).on('resize', function () {
+					var $open = $('#rp-grid .rp-card.is-expanded');
+					if ($open.length) placePanel($open, true);
+				});
+
 				$(document).on('click', '.rp-card', function (e) {
 					if ($(e.target).closest('a, .rp-card-details').length) return;
+					if ($(e.target).closest('.rp-card-figure').length && $(this).find('.rp-card-figure img').length) {
+						zoomFigure($(this).find('.rp-card-figure img')[0]);
+						return;
+					}
 					toggleCard($(this));
 				});
 
 				$('#pub-list').html('<p class="pub-loading">Loading publications&hellip;</p>');
-				$.getJSON('publications.json')
-					.done(function (data) { renderPublications(data); })
-					.fail(function () {
-						renderPublications(fallbackPublications());
-						$('#pub-list').prepend('<p class="pub-note">Showing selected papers. The full list is on ' +
-							'<a href="' + $('#Publications header a').attr('href') + '" rel="external">ADS</a>.</p>');
-					});
+				function useFallback() {
+					renderPublications(fallbackPublications());
+					$('#pub-list').prepend('<p class="pub-note">Showing selected papers. The full list is on ' +
+						'<a href="' + $('#Publications header a').attr('href') + '" rel="external">ADS</a>.</p>');
+				}
+				// A stalled request, an empty or garbled file, or a bad entry all end in the fallback list.
+				$.ajax({ url: 'publications.json', dataType: 'json', timeout: 8000 })
+					.done(function (data) {
+						if (!$.isArray(data) || !data.length) return useFallback();
+						try { renderPublications(data); } catch (err) { useFallback(); }
+					})
+					.fail(useFallback);
 
 				initScrollSpy();
 			});
