@@ -1,6 +1,25 @@
 [
   {
     "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Mar\u00edn Pina, Daniel",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2609.10955",
+    "doctype": "eprint",
+    "me": 5,
+    "bibcode": "2026arXiv260910955D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2609.10955",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
+  },
+  {
+    "year": "2026",
     "title": "oMEGACat. X. Shedding Light on the Disrupted Dwarf Galaxy of Omega Centauri",
     "authors": [
       "Souza, S. O.",
@@ -16,51 +35,13 @@
       "Feldmeier-Krause, A.",
       "Kacharov, N."
     ],
-    "journal": "The Astrophysical Journal",
+    "journal": "ApJ, 1008, 158",
+    "doctype": "article",
+    "me": 7,
     "bibcode": "2026ApJ..1008..158S",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..158S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2603.23589",
     "doiUrl": "https://doi.org/10.3847/1538-4357/ae930a"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Mar\u00edn Pina, Daniel",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260910955D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2609.10955",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
-  },
-  {
-    "year": "2026",
-    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
-    "authors": [
-      "Medan, Ilija",
-      "Casey, Andrew R.",
-      "Ji, Alexander P.",
-      "Otto, Jonah M.",
-      "Sharifi, Kayvon",
-      "Way, Zachary",
-      "McKenzie, Madeleine",
-      "Myers, Natalie R.",
-      "Stassun, Keivan G.",
-      "Smith, Peter J.",
-      "Tkachenko, Andrew",
-      "Chandra, Vedant"
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260722822M",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.22822",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
   },
   {
     "year": "2026",
@@ -79,27 +60,13 @@
       "Kamann, Sebastian",
       "Libralato, Mattia"
     ],
-    "journal": "The Astrophysical Journal Letters",
+    "journal": "ApJL, 1006, L1",
+    "doctype": "article",
+    "me": 16,
     "bibcode": "2026ApJ..1006L...1W",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.18350",
     "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv e-prints",
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
   },
   {
     "year": "2026",
@@ -118,7 +85,9 @@
       "Herbst, Thomas M.",
       "Hilder, Thomas"
     ],
-    "journal": "arXiv e-prints",
+    "journal": "arXiv:2607.28809",
+    "doctype": "eprint",
+    "me": 26,
     "bibcode": "2026arXiv260728809H",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.28809",
@@ -141,11 +110,56 @@
       "Aviram, Shir",
       "Aydar, Catarina"
     ],
-    "journal": "arXiv e-prints",
+    "journal": "arXiv:2607.26149",
+    "doctype": "eprint",
+    "me": 220,
     "bibcode": "2026arXiv260726149S",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.26149",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
+  },
+  {
+    "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2607.07010",
+    "doctype": "eprint",
+    "me": 4,
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
+  },
+  {
+    "year": "2026",
+    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
+    "authors": [
+      "Medan, Ilija",
+      "Casey, Andrew R.",
+      "Ji, Alexander P.",
+      "Otto, Jonah M.",
+      "Sharifi, Kayvon",
+      "Way, Zachary",
+      "McKenzie, Madeleine",
+      "Myers, Natalie R.",
+      "Stassun, Keivan G.",
+      "Smith, Peter J.",
+      "Tkachenko, Andrew",
+      "Chandra, Vedant"
+    ],
+    "journal": "arXiv:2607.22822",
+    "doctype": "eprint",
+    "me": 9,
+    "bibcode": "2026arXiv260722822M",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.22822",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
   },
   {
     "year": "2026",
@@ -157,7 +171,9 @@
       "Smith, Peter J.",
       "Arca Sedda, Manuel"
     ],
-    "journal": "arXiv e-prints",
+    "journal": "arXiv:2606.14852",
+    "doctype": "eprint",
+    "me": 3,
     "bibcode": "2026arXiv260614852T",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.14852",
@@ -180,7 +196,9 @@
       "Alfaro-Cuello, M.",
       "Bellini, A."
     ],
-    "journal": "arXiv e-prints",
+    "journal": "arXiv:2603.01041",
+    "doctype": "eprint",
+    "me": 8,
     "bibcode": "2026arXiv260301041W",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2603.01041",
@@ -202,7 +220,9 @@
       "Libralato, M.",
       "Bellini, A."
     ],
-    "journal": "The Astrophysical Journal",
+    "journal": "ApJ, 998, 177",
+    "doctype": "article",
+    "me": 6,
     "bibcode": "2026ApJ...998..177C",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
     "arxivUrl": "https://arxiv.org/abs/2510.26341",
@@ -225,7 +245,9 @@
       "Roman-Lopes, Alexandre",
       "Green, Gregory M."
     ],
-    "journal": "The Astrophysical Journal Letters",
+    "journal": "ApJL, 998, L33",
+    "doctype": "article",
+    "me": 8,
     "bibcode": "2026ApJ...998L..33L",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
     "arxivUrl": "https://arxiv.org/abs/2601.19522",
@@ -248,7 +270,9 @@
       "Bellini, A.",
       "Feldmeier-Krause, A."
     ],
-    "journal": "The Astrophysical Journal",
+    "journal": "ApJ, 994, 143",
+    "doctype": "article",
+    "me": 14,
     "bibcode": "2025ApJ...994..143W",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994..143W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2510.00330",
@@ -271,7 +295,9 @@
       "Bellini, A.",
       "Feldmeier-Krause, A."
     ],
-    "journal": "The Astrophysical Journal",
+    "journal": "ApJ, 983, 95",
+    "doctype": "article",
+    "me": 4,
     "bibcode": "2025ApJ...983...95H",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...983...95H/abstract",
     "arxivUrl": "https://arxiv.org/abs/2503.04903",
@@ -295,6 +321,8 @@
       "Seth, Anil C."
     ],
     "journal": "JWST Proposal. Cycle 4",
+    "doctype": "proposal",
+    "me": 12,
     "bibcode": "2025jwst.prop.8322H",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.8322H/abstract",
     "arxivUrl": null,
@@ -310,7 +338,9 @@
       "Gieles, Mark",
       "Baumgardt, Holger"
     ],
-    "journal": "The Astrophysical Journal",
+    "journal": "ApJ, 975, 268",
+    "doctype": "article",
+    "me": 0,
     "bibcode": "2024ApJ...975..268S",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...975..268S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2407.06274",
@@ -326,7 +356,9 @@
       "Gieles, M.",
       "Baumgardt, H."
     ],
-    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "journal": "MNRAS, 529, 331",
+    "doctype": "article",
+    "me": 1,
     "bibcode": "2024MNRAS.529..331D",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..331D/abstract",
     "arxivUrl": "https://arxiv.org/abs/2308.13037",
@@ -342,7 +374,9 @@
       "Gieles, M.",
       "Smith, P. J."
     ],
-    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "journal": "MNRAS, 522, 5320",
+    "doctype": "article",
+    "me": 4,
     "bibcode": "2023MNRAS.522.5320D",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5320D/abstract",
     "arxivUrl": "https://arxiv.org/abs/2303.01637",

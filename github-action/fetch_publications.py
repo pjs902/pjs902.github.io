@@ -16,7 +16,27 @@ ORCID = "0000-0002-7489-5244"
 TOKEN = os.environ.get("ADS_API_TOKEN")
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "publications.json")
 
-FIELDS = ["bibcode", "title", "author", "pub", "year", "identifier", "doi"]
+FIELDS = ["bibcode", "title", "author", "pub", "year", "identifier", "doi",
+          "doctype", "bibstem", "volume", "page", "orcid_pub", "orcid_user", "orcid_other"]
+
+
+def my_index(d):
+    """Author-list position of ORCID's owner, from ADS's per-author ORCID arrays (None if unmatched)."""
+    for key in ("orcid_pub", "orcid_user", "orcid_other"):
+        for i, v in enumerate(d.get(key, [])):
+            if v == ORCID:
+                return i
+    return None
+
+
+def citation(d):
+    """Short journal reference: 'ApJ, 975, 268' for articles, the arXiv id for e-prints, else ADS's pub name."""
+    page = (d.get("page") or [""])[0]
+    if d.get("doctype") == "eprint" and page.startswith("arXiv:"):
+        return page
+    if d.get("volume") and d.get("bibstem"):
+        return ", ".join(filter(None, [d["bibstem"][0], d["volume"], page]))
+    return d.get("pub", "")
 
 def fetch():
     if not TOKEN:
@@ -43,7 +63,9 @@ def fetch():
             "year": d.get("year"),
             "title": (d.get("title") or [""])[0],
             "authors": d.get("author", [])[:12],
-            "journal": d.get("pub", ""),
+            "journal": citation(d),
+            "doctype": d.get("doctype"),
+            "me": my_index(d),
             "bibcode": d.get("bibcode"),
             "adsUrl": f"https://ui.adsabs.harvard.edu/abs/{d.get('bibcode')}/abstract",
             "arxivUrl": f"https://arxiv.org/abs/{arxiv_id.split(':', 1)[1]}" if arxiv_id else None,
