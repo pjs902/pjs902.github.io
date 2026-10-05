@@ -1,25 +1,6 @@
 [
   {
     "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Mar\u00edn Pina, Daniel",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv:2609.10955",
-    "doctype": "eprint",
-    "me": 5,
-    "bibcode": "2026arXiv260910955D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2609.10955",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
-  },
-  {
-    "year": "2026",
     "title": "oMEGACat. X. Shedding Light on the Disrupted Dwarf Galaxy of Omega Centauri",
     "authors": [
       "Souza, S. O.",
@@ -45,28 +26,22 @@
   },
   {
     "year": "2026",
-    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
     "authors": [
-      "Whitaker, Matthew",
-      "Kerr, Evan",
-      "Seth, Anil",
-      "H\u00e4berle, Maximilian",
-      "Strader, Jay",
-      "Anderson, Jay",
-      "Bellini, Andrea",
-      "Clontz, Callie",
-      "Freeman, Zack",
-      "Griggio, Massimo",
-      "Kamann, Sebastian",
-      "Libralato, Mattia"
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Mar\u00edn Pina, Daniel",
+      "Smith, Peter J."
     ],
-    "journal": "ApJL, 1006, L1",
-    "doctype": "article",
-    "me": 16,
-    "bibcode": "2026ApJ..1006L...1W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.18350",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
+    "journal": "arXiv:2609.10955",
+    "doctype": "eprint",
+    "me": 5,
+    "bibcode": "2026arXiv260910955D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2609.10955",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
   },
   {
     "year": "2026",
@@ -95,6 +70,24 @@
   },
   {
     "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2607.07010",
+    "doctype": "eprint",
+    "me": 4,
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
+  },
+  {
+    "year": "2026",
     "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
     "authors": [
       "SDSS Collaboration",
@@ -120,21 +113,28 @@
   },
   {
     "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
     "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
+      "Whitaker, Matthew",
+      "Kerr, Evan",
+      "Seth, Anil",
+      "H\u00e4berle, Maximilian",
+      "Strader, Jay",
+      "Anderson, Jay",
+      "Bellini, Andrea",
+      "Clontz, Callie",
+      "Freeman, Zack",
+      "Griggio, Massimo",
+      "Kamann, Sebastian",
+      "Libralato, Mattia"
     ],
-    "journal": "arXiv:2607.07010",
-    "doctype": "eprint",
-    "me": 4,
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
+    "journal": "ApJL, 1006, L1",
+    "doctype": "article",
+    "me": 16,
+    "bibcode": "2026ApJ..1006L...1W",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2606.18350",
+    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
   },
   {
     "year": "2026",
