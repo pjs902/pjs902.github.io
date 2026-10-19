@@ -1,32 +1,51 @@
 [
   {
     "year": "2026",
-    "title": "oMEGACat. X. Shedding Light on the Disrupted Dwarf Galaxy of Omega Centauri",
+    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
     "authors": [
-      "Souza, S. O.",
-      "Neumayer, N.",
-      "Seth, A. C.",
-      "Wang, Z.",
-      "Clontz, C.",
-      "H\u00e4berle, M.",
-      "Nitschai, M. S.",
-      "Smith, P. J.",
-      "Matsuno, T.",
-      "Guiglion, G.",
-      "Feldmeier-Krause, A.",
-      "Kacharov, N."
+      "Medan, Ilija",
+      "Casey, Andrew R.",
+      "Ji, Alexander P.",
+      "Otto, Jonah M.",
+      "Sharifi, Kayvon",
+      "Way, Zachary",
+      "McKenzie, Madeleine",
+      "Myers, Natalie R.",
+      "Stassun, Keivan G.",
+      "Smith, Peter J.",
+      "Tkachenko, Andrew",
+      "Chandra, Vedant"
     ],
-    "journal": "ApJ, 1008, 158",
+    "journal": "ApJS, 287, 5",
     "doctype": "article",
-    "me": 7,
-    "bibcode": "2026ApJ..1008..158S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..158S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2603.23589",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ae930a"
+    "me": 9,
+    "bibcode": "2026ApJS..287....5M",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJS..287....5M/abstract",
+    "arxivUrl": null,
+    "doiUrl": "https://doi.org/10.3847/1538-4365/aea56f"
   },
   {
     "year": "2026",
-    "title": "SDSS-V Local Volume Mapper (LVM): The integrated light and internal rotation of Omega Centauri: Maximilian H\u00e4berle, Dmitry Bizyaev, Alina Boecker, Callie Clontz, Bruno Dias, Antoine Dumont, Evgeniya Egorova, Anja Feldmeier-Krause, et al.",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Mar\u00edn Pina, Daniel",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2609.10955",
+    "doctype": "eprint",
+    "me": 5,
+    "bibcode": "2026arXiv260910955D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2609.10955",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
+  },
+  {
+    "year": "2026",
+    "title": "SDSS-V Local Volume Mapper (LVM): The integrated light and internal rotation of Omega Centauri",
     "authors": [
       "H\u00e4berle, Maximilian",
       "Bizyaev, Dmitry",
@@ -51,22 +70,28 @@
   },
   {
     "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
+    "title": "oMEGACat. X. Shedding Light on the Disrupted Dwarf Galaxy of Omega Centauri",
     "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Mar\u00edn Pina, Daniel",
-      "Smith, Peter J."
+      "Souza, S. O.",
+      "Neumayer, N.",
+      "Seth, A. C.",
+      "Wang, Z.",
+      "Clontz, C.",
+      "H\u00e4berle, M.",
+      "Nitschai, M. S.",
+      "Smith, P. J.",
+      "Matsuno, T.",
+      "Guiglion, G.",
+      "Feldmeier-Krause, A.",
+      "Kacharov, N."
     ],
-    "journal": "arXiv:2609.10955",
-    "doctype": "eprint",
-    "me": 5,
-    "bibcode": "2026arXiv260910955D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2609.10955",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
+    "journal": "ApJ, 1008, 158",
+    "doctype": "article",
+    "me": 7,
+    "bibcode": "2026ApJ..1008..158S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..158S/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2603.23589",
+    "doiUrl": "https://doi.org/10.3847/1538-4357/ae930a"
   },
   {
     "year": "2026",
@@ -95,6 +120,24 @@
   },
   {
     "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2607.07010",
+    "doctype": "eprint",
+    "me": 4,
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
+  },
+  {
+    "year": "2026",
     "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
     "authors": [
       "Whitaker, Matthew",
@@ -120,49 +163,6 @@
   },
   {
     "year": "2026",
-    "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
-    "authors": [
-      "H\u00e4berle, Maximilian",
-      "Bizyaev, Dmitry",
-      "Boecker, Alina",
-      "Clontz, Callie",
-      "Dias, Bruno",
-      "Dumont, Antoine",
-      "Egorova, Evgeniya",
-      "Feldmeier-Krause, Anja",
-      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
-      "Garc\u00eda, Pablo",
-      "Herbst, Thomas M.",
-      "Hilder, Thomas"
-    ],
-    "journal": "arXiv:2607.28809",
-    "doctype": "eprint",
-    "me": 26,
-    "bibcode": "2026arXiv260728809H",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.28809",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.28809"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv:2607.07010",
-    "doctype": "eprint",
-    "me": 4,
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
-  },
-  {
-    "year": "2026",
     "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
     "authors": [
       "Medan, Ilija",
@@ -185,6 +185,31 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.22822",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
+  },
+  {
+    "year": "2026",
+    "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
+    "authors": [
+      "H\u00e4berle, Maximilian",
+      "Bizyaev, Dmitry",
+      "Boecker, Alina",
+      "Clontz, Callie",
+      "Dias, Bruno",
+      "Dumont, Antoine",
+      "Egorova, Evgeniya",
+      "Feldmeier-Krause, Anja",
+      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
+      "Garc\u00eda, Pablo",
+      "Herbst, Thomas M.",
+      "Hilder, Thomas"
+    ],
+    "journal": "arXiv:2607.28809",
+    "doctype": "eprint",
+    "me": 26,
+    "bibcode": "2026arXiv260728809H",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.28809",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.28809"
   },
   {
     "year": "2026",
@@ -302,6 +327,24 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994..143W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2510.00330",
     "doiUrl": "https://doi.org/10.3847/1538-4357/ae102c"
+  },
+  {
+    "year": "2025",
+    "title": "Fast dynamical modelling of globular clusters",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "IAUS, 21, 169",
+    "doctype": "inproceedings",
+    "me": 4,
+    "bibcode": "2026IAUS..398..169D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026IAUS..398..169D/abstract",
+    "arxivUrl": null,
+    "doiUrl": "https://doi.org/10.1017/S1743921325104742"
   },
   {
     "year": "2025",
