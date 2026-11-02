@@ -26,25 +26,6 @@
   },
   {
     "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Mar\u00edn Pina, Daniel",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv:2609.10955",
-    "doctype": "eprint",
-    "me": 5,
-    "bibcode": "2026arXiv260910955D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2609.10955",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
-  },
-  {
-    "year": "2026",
     "title": "SDSS-V Local Volume Mapper (LVM): The integrated light and internal rotation of Omega Centauri",
     "authors": [
       "H\u00e4berle, Maximilian",
@@ -95,32 +76,26 @@
   },
   {
     "year": "2026",
-    "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
     "authors": [
-      "SDSS Collaboration",
-      "Aghakhanloo, Mojgan",
-      "Aguilar, David",
-      "Aird, James",
-      "Almeida, Andr\u00e9s",
-      "Sanabria Alonso, Bella Abigail",
-      "Andales, Hillary Diane",
-      "Anderson, Scott F.",
-      "Arseneau, Stefan",
-      "Gonz\u00e1lez \u00c1vila, Consuelo",
-      "Aviram, Shir",
-      "Aydar, Catarina"
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Mar\u00edn Pina, Daniel",
+      "Smith, Peter J."
     ],
-    "journal": "arXiv:2607.26149",
+    "journal": "arXiv:2609.10955",
     "doctype": "eprint",
-    "me": 220,
-    "bibcode": "2026arXiv260726149S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.26149",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
+    "me": 5,
+    "bibcode": "2026arXiv260910955D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2609.10955",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
   },
   {
     "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "title": "Fast dynamical modelling of globular clusters",
     "authors": [
       "Dickson, Nolan",
       "H\u00e9nault-Brunet, Vincent",
@@ -128,38 +103,13 @@
       "Gieles, Mark",
       "Smith, Peter J."
     ],
-    "journal": "arXiv:2607.07010",
-    "doctype": "eprint",
+    "journal": "IAUS, 21, 169",
+    "doctype": "inproceedings",
     "me": 4,
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
-  },
-  {
-    "year": "2026",
-    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
-    "authors": [
-      "Whitaker, Matthew",
-      "Kerr, Evan",
-      "Seth, Anil",
-      "H\u00e4berle, Maximilian",
-      "Strader, Jay",
-      "Anderson, Jay",
-      "Bellini, Andrea",
-      "Clontz, Callie",
-      "Freeman, Zack",
-      "Griggio, Massimo",
-      "Kamann, Sebastian",
-      "Libralato, Mattia"
-    ],
-    "journal": "ApJL, 1006, L1",
-    "doctype": "article",
-    "me": 16,
-    "bibcode": "2026ApJ..1006L...1W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.18350",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
+    "bibcode": "2026IAUS..398..169D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026IAUS..398..169D/abstract",
+    "arxivUrl": null,
+    "doiUrl": "https://doi.org/10.1017/S1743921325104742"
   },
   {
     "year": "2026",
@@ -188,6 +138,24 @@
   },
   {
     "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2607.07010",
+    "doctype": "eprint",
+    "me": 4,
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
+  },
+  {
+    "year": "2026",
     "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
     "authors": [
       "H\u00e4berle, Maximilian",
@@ -210,6 +178,56 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.28809",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.28809"
+  },
+  {
+    "year": "2026",
+    "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
+    "authors": [
+      "SDSS Collaboration",
+      "Aghakhanloo, Mojgan",
+      "Aguilar, David",
+      "Aird, James",
+      "Almeida, Andr\u00e9s",
+      "Sanabria Alonso, Bella Abigail",
+      "Andales, Hillary Diane",
+      "Anderson, Scott F.",
+      "Arseneau, Stefan",
+      "Gonz\u00e1lez \u00c1vila, Consuelo",
+      "Aviram, Shir",
+      "Aydar, Catarina"
+    ],
+    "journal": "arXiv:2607.26149",
+    "doctype": "eprint",
+    "me": 220,
+    "bibcode": "2026arXiv260726149S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.26149",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
+  },
+  {
+    "year": "2026",
+    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
+    "authors": [
+      "Whitaker, Matthew",
+      "Kerr, Evan",
+      "Seth, Anil",
+      "H\u00e4berle, Maximilian",
+      "Strader, Jay",
+      "Anderson, Jay",
+      "Bellini, Andrea",
+      "Clontz, Callie",
+      "Freeman, Zack",
+      "Griggio, Massimo",
+      "Kamann, Sebastian",
+      "Libralato, Mattia"
+    ],
+    "journal": "ApJL, 1006, L1",
+    "doctype": "article",
+    "me": 16,
+    "bibcode": "2026ApJ..1006L...1W",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2606.18350",
+    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
   },
   {
     "year": "2026",
@@ -243,8 +261,8 @@
       "Nitschai, M. S.",
       "Smith, P. J.",
       "Souza, S. O.",
-      "Alfaro-Cuello, M.",
-      "Bellini, A."
+      "van de Ven, G.",
+      "Alfaro-Cuello, M."
     ],
     "journal": "arXiv:2603.01041",
     "doctype": "eprint",
@@ -327,24 +345,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994..143W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2510.00330",
     "doiUrl": "https://doi.org/10.3847/1538-4357/ae102c"
-  },
-  {
-    "year": "2025",
-    "title": "Fast dynamical modelling of globular clusters",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "IAUS, 21, 169",
-    "doctype": "inproceedings",
-    "me": 4,
-    "bibcode": "2026IAUS..398..169D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026IAUS..398..169D/abstract",
-    "arxivUrl": null,
-    "doiUrl": "https://doi.org/10.1017/S1743921325104742"
   },
   {
     "year": "2025",
