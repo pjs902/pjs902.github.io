@@ -21,33 +21,26 @@
     "me": 9,
     "bibcode": "2026ApJS..287....5M",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJS..287....5M/abstract",
-    "arxivUrl": null,
+    "arxivUrl": "https://arxiv.org/abs/2607.22822",
     "doiUrl": "https://doi.org/10.3847/1538-4365/aea56f"
   },
   {
     "year": "2026",
-    "title": "SDSS-V Local Volume Mapper (LVM): The integrated light and internal rotation of Omega Centauri",
+    "title": "Fast dynamical modelling of globular clusters",
     "authors": [
-      "H\u00e4berle, Maximilian",
-      "Bizyaev, Dmitry",
-      "Boecker, Alina",
-      "Clontz, Callie",
-      "Dias, Bruno",
-      "Dumont, Antoine",
-      "Egorova, Evgeniya",
-      "Feldmeier-Krause, Anja",
-      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
-      "Garc\u00eda, Pablo",
-      "Herbst, Thomas M.",
-      "Hilder, Thomas"
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
     ],
-    "journal": "A&A, 713, A301",
-    "doctype": "article",
-    "me": 26,
-    "bibcode": "2026A&A...713A.301H",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026A&A...713A.301H/abstract",
+    "journal": "IAUS, 21, 169",
+    "doctype": "inproceedings",
+    "me": 4,
+    "bibcode": "2026IAUS..398..169D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026IAUS..398..169D/abstract",
     "arxivUrl": null,
-    "doiUrl": "https://doi.org/10.1051/0004-6361/202661121"
+    "doiUrl": "https://doi.org/10.1017/S1743921325104742"
   },
   {
     "year": "2026",
@@ -76,6 +69,31 @@
   },
   {
     "year": "2026",
+    "title": "SDSS-V Local Volume Mapper (LVM): The integrated light and internal rotation of Omega Centauri",
+    "authors": [
+      "H\u00e4berle, Maximilian",
+      "Bizyaev, Dmitry",
+      "Boecker, Alina",
+      "Clontz, Callie",
+      "Dias, Bruno",
+      "Dumont, Antoine",
+      "Egorova, Evgeniya",
+      "Feldmeier-Krause, Anja",
+      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
+      "Garc\u00eda, Pablo",
+      "Herbst, Thomas M.",
+      "Hilder, Thomas"
+    ],
+    "journal": "A&A, 713, A301",
+    "doctype": "article",
+    "me": 26,
+    "bibcode": "2026A&A...713A.301H",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026A&A...713A.301H/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.28809",
+    "doiUrl": "https://doi.org/10.1051/0004-6361/202661121"
+  },
+  {
+    "year": "2026",
     "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
     "authors": [
       "Dickson, Nolan",
@@ -95,49 +113,6 @@
   },
   {
     "year": "2026",
-    "title": "Fast dynamical modelling of globular clusters",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "IAUS, 21, 169",
-    "doctype": "inproceedings",
-    "me": 4,
-    "bibcode": "2026IAUS..398..169D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026IAUS..398..169D/abstract",
-    "arxivUrl": null,
-    "doiUrl": "https://doi.org/10.1017/S1743921325104742"
-  },
-  {
-    "year": "2026",
-    "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
-    "authors": [
-      "Medan, Ilija",
-      "Casey, Andrew R.",
-      "Ji, Alexander P.",
-      "Otto, Jonah M.",
-      "Sharifi, Kayvon",
-      "Way, Zachary",
-      "McKenzie, Madeleine",
-      "Myers, Natalie R.",
-      "Stassun, Keivan G.",
-      "Smith, Peter J.",
-      "Tkachenko, Andrew",
-      "Chandra, Vedant"
-    ],
-    "journal": "arXiv:2607.22822",
-    "doctype": "eprint",
-    "me": 9,
-    "bibcode": "2026arXiv260722822M",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722822M/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.22822",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.22822"
-  },
-  {
-    "year": "2026",
     "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
     "authors": [
       "Dickson, Nolan",
@@ -153,56 +128,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.07010",
     "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
-  },
-  {
-    "year": "2026",
-    "title": "SDSS-V Local Volume Mapper (LVM): The Integrated Light and Internal Rotation of Omega Centauri",
-    "authors": [
-      "H\u00e4berle, Maximilian",
-      "Bizyaev, Dmitry",
-      "Boecker, Alina",
-      "Clontz, Callie",
-      "Dias, Bruno",
-      "Dumont, Antoine",
-      "Egorova, Evgeniya",
-      "Feldmeier-Krause, Anja",
-      "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
-      "Garc\u00eda, Pablo",
-      "Herbst, Thomas M.",
-      "Hilder, Thomas"
-    ],
-    "journal": "arXiv:2607.28809",
-    "doctype": "eprint",
-    "me": 26,
-    "bibcode": "2026arXiv260728809H",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260728809H/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.28809",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.28809"
-  },
-  {
-    "year": "2026",
-    "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
-    "authors": [
-      "SDSS Collaboration",
-      "Aghakhanloo, Mojgan",
-      "Aguilar, David",
-      "Aird, James",
-      "Almeida, Andr\u00e9s",
-      "Sanabria Alonso, Bella Abigail",
-      "Andales, Hillary Diane",
-      "Anderson, Scott F.",
-      "Arseneau, Stefan",
-      "Gonz\u00e1lez \u00c1vila, Consuelo",
-      "Aviram, Shir",
-      "Aydar, Catarina"
-    ],
-    "journal": "arXiv:2607.26149",
-    "doctype": "eprint",
-    "me": 220,
-    "bibcode": "2026arXiv260726149S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.26149",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
   },
   {
     "year": "2026",
@@ -228,6 +153,31 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.18350",
     "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
+  },
+  {
+    "year": "2026",
+    "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper",
+    "authors": [
+      "SDSS Collaboration",
+      "Aghakhanloo, Mojgan",
+      "Aguilar, David",
+      "Aird, James",
+      "Almeida, Andr\u00e9s",
+      "Sanabria Alonso, Bella Abigail",
+      "Andales, Hillary Diane",
+      "Anderson, Scott F.",
+      "Arseneau, Stefan",
+      "Gonz\u00e1lez \u00c1vila, Consuelo",
+      "Aviram, Shir",
+      "Aydar, Catarina"
+    ],
+    "journal": "arXiv:2607.26149",
+    "doctype": "eprint",
+    "me": 220,
+    "bibcode": "2026arXiv260726149S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.26149",
+    "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
   },
   {
     "year": "2026",
@@ -274,6 +224,30 @@
   },
   {
     "year": "2026",
+    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
+    "authors": [
+      "Clontz, C.",
+      "Seth, A. C.",
+      "Wang, Z.",
+      "H\u00e4berle, M.",
+      "Nitschai, M. S.",
+      "Neumayer, N.",
+      "Smith, P. J.",
+      "Latour, M.",
+      "Feldmeier-Krause, A.",
+      "Libralato, M.",
+      "Bellini, A."
+    ],
+    "journal": "ApJ, 998, 177",
+    "doctype": "article",
+    "me": 6,
+    "bibcode": "2026ApJ...998..177C",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2510.26341",
+    "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
+  },
+  {
+    "year": "2026",
     "title": "Variations in the Milky Way's Stellar Mass Function at [Fe/H] &lt; \u22121",
     "authors": [
       "Li, Jiadong",
@@ -296,30 +270,6 @@
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
     "arxivUrl": "https://arxiv.org/abs/2601.19522",
     "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
-  },
-  {
-    "year": "2026",
-    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
-    "authors": [
-      "Clontz, C.",
-      "Seth, A. C.",
-      "Wang, Z.",
-      "H\u00e4berle, M.",
-      "Nitschai, M. S.",
-      "Neumayer, N.",
-      "Smith, P. J.",
-      "Latour, M.",
-      "Feldmeier-Krause, A.",
-      "Libralato, M.",
-      "Bellini, A."
-    ],
-    "journal": "ApJ, 998, 177",
-    "doctype": "article",
-    "me": 6,
-    "bibcode": "2026ApJ...998..177C",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2510.26341",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
   },
   {
     "year": "2025",
