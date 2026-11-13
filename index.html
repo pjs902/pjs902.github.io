@@ -240,6 +240,39 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 		(function ($) {
 			var projects = [
 				{
+					title: "oMEGACat: 3D Kinematics of Omega Centauri",
+					cite: "Smith et al. 2026, subm. to ApJ; Häberle et al. 2025, ApJ 983, 95",
+					tagline: "The 3D kinematics of Omega Cen and its stellar subpopulations, including a flattened primordial component",
+					tags: ["Omega Centauri", "HST"],
+					description: [
+						"Using the oMEGACat catalogue — 1.4 million proper motion measurements and 300,000 spectroscopic radial velocities — we analyzed the full 3D internal kinematics of Omega Centauri, the Milky Way's most massive globular cluster and likely the stripped nucleus of an accreted dwarf galaxy.",
+						"We measured a kinematic distance of 5494 ± 61 pc, the most precise available, and found the velocity dispersion profile to be isotropic in the core with increasing radial anisotropy at larger radii. Metallicity shows no correlation with kinematics, indicating well-mixed stellar populations, while partial energy equipartition decreases from the centre outwards. These results serve as a new reference for future dynamical modelling of the cluster, an effort which I am leading within the oMEGACat collaboration.",
+						"Splitting Omega Cen's stars by their chromosome map, we find two dynamically distinct components. The primordial stars have a flattened velocity dispersion field, recovered independently in the line-of-sight velocities and the proper motions, while the enriched stars are round and more centrally concentrated. This favours a picture in which the primordial stars keep the orbital structure of the progenitor nucleus, while the enriched stars fell inward as dense clumps or formed in compact central starbursts."
+					],
+					figure: "images/omegacen_p1_vs_p2_los_dispersion.webp",
+					figureAlt: "Line-of-sight velocity dispersion maps of Omega Centauri's primordial (P1) and enriched (P2) stars: the primordial field is flattened, the enriched one round and centrally peaked",
+					links: [
+						{ label: "arXiv (XI)", url: "https://arxiv.org/abs/2611.15866" },
+						{ label: "ADS (VI)", url: "https://ui.adsabs.harvard.edu/abs/2025ApJ...983...95H/abstract" },
+						{ label: "arXiv (VI)", url: "https://arxiv.org/abs/2503.04903" }
+					]
+				},
+				{
+					title: "Inner Milky Way Dynamics with SDSS-V",
+					tagline: "Mapping and modelling the Milky Way's bar with Milky Way Mapper spectroscopy",
+					tags: ["SDSS-V", "Milky Way", "Galactic Bar"],
+					description: [
+						"As part of the SDSS-V collaboration (Kollmeier et al. 2026), I use Milky Way Mapper spectra of red giants to study the inner Galaxy. I built data-driven spectrophotometric distances that stay precise behind heavy dust and beyond the Galactic Centre, where Gaia parallaxes run out, reaching stars on the far side of the bar.",
+						"With these distances and the survey's selection function, I am modelling the Milky Way's bar directly: a forward model of its density and streaming motions, fitted star by star, to measure the bar's orientation, length and pattern speed."
+					],
+					figure: "images/faceon_apogeeDR17_vs_GG_theta1_mp_density.webp",
+					figureAlt: "Face-on stellar density map of the inner Milky Way from APOGEE DR17 compared to a Milky Way model",
+					links: [
+						{ label: "ADS", url: "https://ui.adsabs.harvard.edu/abs/2026AJ....171...52K/abstract" },
+						{ label: "arXiv", url: "https://arxiv.org/abs/2507.06989" }
+					]
+				},
+				{
 					title: "Pulsar Timing as a Dynamical Probe",
 					cite: "Smith et al. 2024, ApJ 975, 268",
 					tagline: "Constraining dark remnants in 47 Tuc and Terzan 5 using millisecond pulsar timing",
@@ -256,22 +289,6 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 					]
 				},
 				{
-					title: "oMEGACat: 3D Kinematics of Omega Centauri",
-					cite: "Häberle et al. 2025, ApJ 983, 95",
-					tagline: "Velocity dispersion, kinematic distance, anisotropy, and energy equipartition in Omega Cen",
-					tags: ["Omega Centauri", "HST"],
-					description: [
-						"Using the oMEGACat catalogue — 1.4 million proper motion measurements and 300,000 spectroscopic radial velocities — we analyzed the full 3D internal kinematics of Omega Centauri, the Milky Way's most massive globular cluster and likely the stripped nucleus of an accreted dwarf galaxy.",
-						"We measured a kinematic distance of 5494 ± 61 pc, the most precise available, and found the velocity dispersion profile to be isotropic in the core with increasing radial anisotropy at larger radii. Metallicity shows no correlation with kinematics, indicating well-mixed stellar populations, while partial energy equipartition decreases from the centre outwards. These results serve as a new reference for future dynamical modelling of the cluster, an effort which I am leading within the oMEGACat collaboration."
-					],
-					figure: "images/los_velocity_maps_2d_n100_m18_revised.webp",
-					figureAlt: "2D line-of-sight velocity maps of Omega Centauri",
-					links: [
-						{ label: "ADS", url: "https://ui.adsabs.harvard.edu/abs/2025ApJ...983...95H/abstract" },
-						{ label: "arXiv", url: "https://arxiv.org/abs/2503.04903" }
-					]
-				},
-				{
 					title: "Multimass Modelling of Milky Way Globular Clusters",
 					cite: "Dickson et al. 2024, MNRAS 529, 331",
 					tagline: "Present-day black hole populations across 34 Milky Way globular clusters",
@@ -285,21 +302,6 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 					links: [
 						{ label: "ADS", url: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..331D/abstract" },
 						{ label: "arXiv", url: "https://arxiv.org/abs/2308.13037" }
-					]
-				},
-				{
-					title: "Inner Milky Way Dynamics with SDSS-V",
-					tagline: "Probing inner Milky Way stellar populations and dynamics with Milky Way Mapper spectroscopy",
-					tags: ["SDSS-V", "Milky Way"],
-					description: [
-						"As part of the SDSS-V collaboration (Kollmeier et al. 2026), I contribute to the analysis of Milky Way Mapper data to study stellar populations and kinematics in the inner Milky Way, leveraging the survey's wide-field multi-object spectroscopy.",
-						"This work targets the complex dynamical environment of the inner Galaxy at scales and depths not previously accessible due to heavy extinction, contributing to a growing picture of the Milky Way's structural and kinematic properties."
-					],
-					figure: "images/faceon_apogeeDR17_vs_GG_theta1_mp_density.webp",
-					figureAlt: "Face-on stellar density map of the inner Milky Way from APOGEE DR17 compared to a Milky Way model",
-					links: [
-						{ label: "ADS", url: "https://ui.adsabs.harvard.edu/abs/2026AJ....171...52K/abstract" },
-						{ label: "arXiv", url: "https://arxiv.org/abs/2507.06989" }
 					]
 				}
 			];
@@ -449,7 +451,23 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 			var PUB_KINDS = { eprint: 'Preprint', proposal: 'Proposal' };
 
 			// Hand-picked, in this order; everything else stays in the chronological list.
-			var SELECTED = ['2024ApJ...975..268S', '2024MNRAS.529..331D', '2025ApJ...983...95H'];
+			// An arXiv ID keeps matching after ADS swaps the preprint bibcode for the journal one.
+			var SELECTED = ['2611.15866', '2024ApJ...975..268S', '2024MNRAS.529..331D', '2025ApJ...983...95H'];
+
+			// Papers not yet in ADS. Each shows only until publications.json has an entry with the
+			// same arXiv ID, so it retires itself once the weekly fetch picks the paper up.
+			var MANUAL = [
+				{
+					bibcode: '2026arXiv261115866S', year: '2026', doctype: 'eprint', me: 0, journal: 'arXiv:2611.15866',
+					title: "oMEGACat. XI. Kinematic Characterization of Omega Centauri's Subpopulations: A Flattened Primordial Component",
+					authors: ['Smith, P. J.', 'Neumayer, N.', 'Seth, A. C.', 'Clontz, C.', 'Häberle, M.', 'Souza, S. O.', 'Wang, Z.', 'van de Ven, G.', 'Nitschai, M. S.', 'Libralato, M.', 'Feldmeier-Krause, A.', 'Kamann, S.', 'Aros, F. I.', 'Leaman, R.', 'Bellini, A.', 'Pechetti, R.', 'Alfaro-Cuello, M.'],
+					adsUrl: 'https://ui.adsabs.harvard.edu/abs/2026arXiv261115866S/abstract', arxivUrl: 'https://arxiv.org/abs/2611.15866'
+				}
+			];
+
+			function pubHas(pub, code) {
+				return [pub.bibcode, pub.adsUrl, pub.arxivUrl].join(' ').indexOf(code) > -1;
+			}
 
 
 			function pubRow(pub, showYear) {
@@ -492,8 +510,12 @@ c0 -35.3496 -85.96 -64 -192 -64s-192 28.6504 -192 64l14.1797 113.46l145.021 -44.
 
 			function renderPublications(pubs) {
 				var $list = $('#pub-list');
+				// Newest first, so not-yet-indexed papers go on top.
+				pubs = $.grep(MANUAL, function (m) {
+					return !$.grep(pubs, function (p) { return pubHas(p, m.arxivUrl.split('/abs/')[1]); }).length;
+				}).concat(pubs);
 				var picked = $.map(SELECTED, function (code) {
-					return $.grep(pubs, function (p) { return (p.bibcode || p.adsUrl || '').indexOf(code) > -1; })[0] || null;
+					return $.grep(pubs, function (p) { return pubHas(p, code); })[0] || null;
 				});
 				$list.html(
 					(picked.length ? '<h3 class="pub-group">Selected</h3>' + $.map(picked, function (p) { return pubRow(p, true); }).join('') : '') +

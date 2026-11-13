@@ -16,7 +16,7 @@ ORCID = "0000-0002-7489-5244"
 TOKEN = os.environ.get("ADS_API_TOKEN")
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "publications.json")
 
-FIELDS = ["bibcode", "title", "author", "pub", "year", "identifier", "doi",
+FIELDS = ["bibcode", "title", "author", "pub", "year", "identifier",
           "doctype", "bibstem", "volume", "page", "orcid_pub", "orcid_user", "orcid_other"]
 
 
@@ -56,6 +56,8 @@ def fetch():
         data = json.load(resp)
 
     docs = data.get("response", {}).get("docs", [])
+    if not docs:
+        sys.exit("ADS returned no papers; keeping the old publications.json")
     papers = []
     for d in docs:
         arxiv_id = next((i for i in d.get("identifier", []) if i.startswith("arXiv:")), None)
@@ -69,7 +71,6 @@ def fetch():
             "bibcode": d.get("bibcode"),
             "adsUrl": f"https://ui.adsabs.harvard.edu/abs/{d.get('bibcode')}/abstract",
             "arxivUrl": f"https://arxiv.org/abs/{arxiv_id.split(':', 1)[1]}" if arxiv_id else None,
-            "doiUrl": f"https://doi.org/{d['doi'][0]}" if d.get("doi") else None,
         })
 
     with open(OUTPUT_PATH, "w") as f:
