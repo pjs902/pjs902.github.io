@@ -21,8 +21,7 @@
     "me": 9,
     "bibcode": "2026ApJS..287....5M",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJS..287....5M/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.22822",
-    "doiUrl": "https://doi.org/10.3847/1538-4365/aea56f"
+    "arxivUrl": "https://arxiv.org/abs/2607.22822"
   },
   {
     "year": "2026",
@@ -39,8 +38,7 @@
     "me": 4,
     "bibcode": "2026IAUS..398..169D",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026IAUS..398..169D/abstract",
-    "arxivUrl": null,
-    "doiUrl": "https://doi.org/10.1017/S1743921325104742"
+    "arxivUrl": null
   },
   {
     "year": "2026",
@@ -64,8 +62,7 @@
     "me": 7,
     "bibcode": "2026ApJ..1008..158S",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..158S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2603.23589",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ae930a"
+    "arxivUrl": "https://arxiv.org/abs/2603.23589"
   },
   {
     "year": "2026",
@@ -89,8 +86,7 @@
     "me": 26,
     "bibcode": "2026A&A...713A.301H",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026A&A...713A.301H/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.28809",
-    "doiUrl": "https://doi.org/10.1051/0004-6361/202661121"
+    "arxivUrl": "https://arxiv.org/abs/2607.28809"
   },
   {
     "year": "2026",
@@ -108,26 +104,7 @@
     "me": 5,
     "bibcode": "2026arXiv260910955D",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2609.10955",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2609.10955"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv:2607.07010",
-    "doctype": "eprint",
-    "me": 4,
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.07010"
+    "arxivUrl": "https://arxiv.org/abs/2609.10955"
   },
   {
     "year": "2026",
@@ -151,8 +128,24 @@
     "me": 16,
     "bibcode": "2026ApJ..1006L...1W",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.18350",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae7a5c"
+    "arxivUrl": "https://arxiv.org/abs/2606.18350"
+  },
+  {
+    "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2607.07010",
+    "doctype": "eprint",
+    "me": 4,
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010"
   },
   {
     "year": "2026",
@@ -176,8 +169,7 @@
     "me": 220,
     "bibcode": "2026arXiv260726149S",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.26149",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2607.26149"
+    "arxivUrl": "https://arxiv.org/abs/2607.26149"
   },
   {
     "year": "2026",
@@ -194,8 +186,7 @@
     "me": 3,
     "bibcode": "2026arXiv260614852T",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.14852",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2606.14852"
+    "arxivUrl": "https://arxiv.org/abs/2606.14852"
   },
   {
     "year": "2026",
@@ -219,8 +210,7 @@
     "me": 8,
     "bibcode": "2026arXiv260301041W",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2603.01041",
-    "doiUrl": "https://doi.org/10.48550/arXiv.2603.01041"
+    "arxivUrl": "https://arxiv.org/abs/2603.01041"
   },
   {
     "year": "2026",
@@ -243,8 +233,7 @@
     "me": 6,
     "bibcode": "2026ApJ...998..177C",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2510.26341",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ae3756"
+    "arxivUrl": "https://arxiv.org/abs/2510.26341"
   },
   {
     "year": "2026",
@@ -268,8 +257,7 @@
     "me": 8,
     "bibcode": "2026ApJ...998L..33L",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2601.19522",
-    "doiUrl": "https://doi.org/10.3847/2041-8213/ae3d39"
+    "arxivUrl": "https://arxiv.org/abs/2601.19522"
   },
   {
     "year": "2025",
@@ -293,8 +281,7 @@
     "me": 14,
     "bibcode": "2025ApJ...994..143W",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994..143W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2510.00330",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ae102c"
+    "arxivUrl": "https://arxiv.org/abs/2510.00330"
   },
   {
     "year": "2025",
@@ -318,8 +305,7 @@
     "me": 4,
     "bibcode": "2025ApJ...983...95H",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...983...95H/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2503.04903",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/adbe67"
+    "arxivUrl": "https://arxiv.org/abs/2503.04903"
   },
   {
     "year": "2025",
@@ -343,8 +329,7 @@
     "me": 12,
     "bibcode": "2025jwst.prop.8322H",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.8322H/abstract",
-    "arxivUrl": null,
-    "doiUrl": null
+    "arxivUrl": null
   },
   {
     "year": "2024",
@@ -361,8 +346,7 @@
     "me": 0,
     "bibcode": "2024ApJ...975..268S",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...975..268S/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2407.06274",
-    "doiUrl": "https://doi.org/10.3847/1538-4357/ad77bc"
+    "arxivUrl": "https://arxiv.org/abs/2407.06274"
   },
   {
     "year": "2024",
@@ -379,8 +363,7 @@
     "me": 1,
     "bibcode": "2024MNRAS.529..331D",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..331D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2308.13037",
-    "doiUrl": "https://doi.org/10.1093/mnras/stae470"
+    "arxivUrl": "https://arxiv.org/abs/2308.13037"
   },
   {
     "year": "2023",
@@ -397,7 +380,6 @@
     "me": 4,
     "bibcode": "2023MNRAS.522.5320D",
     "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5320D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2303.01637",
-    "doiUrl": "https://doi.org/10.1093/mnras/stad1254"
+    "arxivUrl": "https://arxiv.org/abs/2303.01637"
   }
 ]
