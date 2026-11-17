@@ -14,15 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch latest publications from ADS
+      - name: Fetch latest publications from SciX
         env:
-          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
-        run: python3 github-action/fetch_publications.py
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}  # scixplorer reads the legacy ADS name; a SciX token works here too
+        run: |
+          pip install scixplorer==1.0.1
+          python3 github-action/fetch_publications.py
 
       - name: Commit changes if publications.json changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add publications.json
-          git diff --staged --quiet || git commit -m "Update publications.json from ADS"
+          git diff --staged --quiet || git commit -m "Update publications.json from SciX"
           git push

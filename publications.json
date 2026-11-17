@@ -20,8 +20,26 @@
     "doctype": "article",
     "me": 9,
     "bibcode": "2026ApJS..287....5M",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJS..287....5M/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026ApJS..287....5M/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.22822"
+  },
+  {
+    "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Mar\u00edn Pina, Daniel",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2609.10955",
+    "doctype": "eprint",
+    "me": 5,
+    "bibcode": "2026arXiv260910955D",
+    "adsUrl": "https://scixplorer.org/abs/2026arXiv260910955D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2609.10955"
   },
   {
     "year": "2026",
@@ -37,7 +55,7 @@
     "doctype": "inproceedings",
     "me": 4,
     "bibcode": "2026IAUS..398..169D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026IAUS..398..169D/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026IAUS..398..169D/abstract",
     "arxivUrl": null
   },
   {
@@ -61,7 +79,7 @@
     "doctype": "article",
     "me": 7,
     "bibcode": "2026ApJ..1008..158S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..158S/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026ApJ..1008..158S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2603.23589"
   },
   {
@@ -85,67 +103,8 @@
     "doctype": "article",
     "me": 26,
     "bibcode": "2026A&A...713A.301H",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026A&A...713A.301H/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026A&A...713A.301H/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.28809"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- II. Impacts of Black Hole Prescriptions",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Mar\u00edn Pina, Daniel",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv:2609.10955",
-    "doctype": "eprint",
-    "me": 5,
-    "bibcode": "2026arXiv260910955D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260910955D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2609.10955"
-  },
-  {
-    "year": "2026",
-    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
-    "authors": [
-      "Whitaker, Matthew",
-      "Kerr, Evan",
-      "Seth, Anil",
-      "H\u00e4berle, Maximilian",
-      "Strader, Jay",
-      "Anderson, Jay",
-      "Bellini, Andrea",
-      "Clontz, Callie",
-      "Freeman, Zack",
-      "Griggio, Massimo",
-      "Kamann, Sebastian",
-      "Libralato, Mattia"
-    ],
-    "journal": "ApJL, 1006, L1",
-    "doctype": "article",
-    "me": 16,
-    "bibcode": "2026ApJ..1006L...1W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006L...1W/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2606.18350"
-  },
-  {
-    "year": "2026",
-    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
-    "authors": [
-      "Dickson, Nolan",
-      "H\u00e9nault-Brunet, Vincent",
-      "Fronimos Pouliasis, Fotios",
-      "Gieles, Mark",
-      "Smith, Peter J."
-    ],
-    "journal": "arXiv:2607.07010",
-    "doctype": "eprint",
-    "me": 4,
-    "bibcode": "2026arXiv260707010D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707010D/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2607.07010"
   },
   {
     "year": "2026",
@@ -168,8 +127,49 @@
     "doctype": "eprint",
     "me": 220,
     "bibcode": "2026arXiv260726149S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260726149S/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026arXiv260726149S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2607.26149"
+  },
+  {
+    "year": "2026",
+    "title": "Fast Dynamical Modelling of Milky Way Globular Clusters -- I. Implications for Initial Cluster Densities",
+    "authors": [
+      "Dickson, Nolan",
+      "H\u00e9nault-Brunet, Vincent",
+      "Fronimos Pouliasis, Fotios",
+      "Gieles, Mark",
+      "Smith, Peter J."
+    ],
+    "journal": "arXiv:2607.07010",
+    "doctype": "eprint",
+    "me": 4,
+    "bibcode": "2026arXiv260707010D",
+    "adsUrl": "https://scixplorer.org/abs/2026arXiv260707010D/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2607.07010"
+  },
+  {
+    "year": "2026",
+    "title": "A Long Period Stellar-mass Black Hole Binary in \u03c9 Centauri",
+    "authors": [
+      "Whitaker, Matthew",
+      "Kerr, Evan",
+      "Seth, Anil",
+      "H\u00e4berle, Maximilian",
+      "Strader, Jay",
+      "Anderson, Jay",
+      "Bellini, Andrea",
+      "Clontz, Callie",
+      "Freeman, Zack",
+      "Griggio, Massimo",
+      "Kamann, Sebastian",
+      "Libralato, Mattia"
+    ],
+    "journal": "ApJL, 1006, L1",
+    "doctype": "article",
+    "me": 16,
+    "bibcode": "2026ApJ..1006L...1W",
+    "adsUrl": "https://scixplorer.org/abs/2026ApJ..1006L...1W/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2606.18350"
   },
   {
     "year": "2026",
@@ -185,7 +185,7 @@
     "doctype": "eprint",
     "me": 3,
     "bibcode": "2026arXiv260614852T",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614852T/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026arXiv260614852T/abstract",
     "arxivUrl": "https://arxiv.org/abs/2606.14852"
   },
   {
@@ -209,31 +209,8 @@
     "doctype": "eprint",
     "me": 8,
     "bibcode": "2026arXiv260301041W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260301041W/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026arXiv260301041W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2603.01041"
-  },
-  {
-    "year": "2026",
-    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
-    "authors": [
-      "Clontz, C.",
-      "Seth, A. C.",
-      "Wang, Z.",
-      "H\u00e4berle, M.",
-      "Nitschai, M. S.",
-      "Neumayer, N.",
-      "Smith, P. J.",
-      "Latour, M.",
-      "Feldmeier-Krause, A.",
-      "Libralato, M.",
-      "Bellini, A."
-    ],
-    "journal": "ApJ, 998, 177",
-    "doctype": "article",
-    "me": 6,
-    "bibcode": "2026ApJ...998..177C",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract",
-    "arxivUrl": "https://arxiv.org/abs/2510.26341"
   },
   {
     "year": "2026",
@@ -256,8 +233,31 @@
     "doctype": "article",
     "me": 8,
     "bibcode": "2026ApJ...998L..33L",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..33L/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2026ApJ...998L..33L/abstract",
     "arxivUrl": "https://arxiv.org/abs/2601.19522"
+  },
+  {
+    "year": "2026",
+    "title": "oMEGACat. VIII. A Subpopulation Census of \u03c9 Centauri",
+    "authors": [
+      "Clontz, C.",
+      "Seth, A. C.",
+      "Wang, Z.",
+      "H\u00e4berle, M.",
+      "Nitschai, M. S.",
+      "Neumayer, N.",
+      "Smith, P. J.",
+      "Latour, M.",
+      "Feldmeier-Krause, A.",
+      "Libralato, M.",
+      "Bellini, A."
+    ],
+    "journal": "ApJ, 998, 177",
+    "doctype": "article",
+    "me": 6,
+    "bibcode": "2026ApJ...998..177C",
+    "adsUrl": "https://scixplorer.org/abs/2026ApJ...998..177C/abstract",
+    "arxivUrl": "https://arxiv.org/abs/2510.26341"
   },
   {
     "year": "2025",
@@ -280,7 +280,7 @@
     "doctype": "article",
     "me": 14,
     "bibcode": "2025ApJ...994..143W",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994..143W/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2025ApJ...994..143W/abstract",
     "arxivUrl": "https://arxiv.org/abs/2510.00330"
   },
   {
@@ -304,7 +304,7 @@
     "doctype": "article",
     "me": 4,
     "bibcode": "2025ApJ...983...95H",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...983...95H/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2025ApJ...983...95H/abstract",
     "arxivUrl": "https://arxiv.org/abs/2503.04903"
   },
   {
@@ -328,7 +328,7 @@
     "doctype": "proposal",
     "me": 12,
     "bibcode": "2025jwst.prop.8322H",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.8322H/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2025jwst.prop.8322H/abstract",
     "arxivUrl": null
   },
   {
@@ -345,7 +345,7 @@
     "doctype": "article",
     "me": 0,
     "bibcode": "2024ApJ...975..268S",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...975..268S/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2024ApJ...975..268S/abstract",
     "arxivUrl": "https://arxiv.org/abs/2407.06274"
   },
   {
@@ -362,7 +362,7 @@
     "doctype": "article",
     "me": 1,
     "bibcode": "2024MNRAS.529..331D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..331D/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2024MNRAS.529..331D/abstract",
     "arxivUrl": "https://arxiv.org/abs/2308.13037"
   },
   {
@@ -379,7 +379,7 @@
     "doctype": "article",
     "me": 4,
     "bibcode": "2023MNRAS.522.5320D",
-    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5320D/abstract",
+    "adsUrl": "https://scixplorer.org/abs/2023MNRAS.522.5320D/abstract",
     "arxivUrl": "https://arxiv.org/abs/2303.01637"
   }
 ]

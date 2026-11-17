@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 """
-Fetch this author's publications from the NASA ADS API and write them to
+Fetch this author's publications from SciX (NASA ADS's successor) and write them to
 publications.json as static data the site can fetch client-side.
 
-Requires an ADS API token (get one free at https://ui.adsabs.harvard.edu/user/settings/token)
-passed via the ADS_API_TOKEN environment variable — never commit the token itself.
+Requires a SciX API token (https://scixplorer.org/user/settings/token) in SCIX_API_TOKEN
+or the legacy ADS_API_TOKEN; scixplorer reads either. Never commit the token itself.
 """
 import json
 import os
 import sys
-import urllib.parse
-import urllib.request
+
+from scixplorer import Document
 
 ORCID = "0000-0002-7489-5244"
-TOKEN = os.environ.get("ADS_API_TOKEN")
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "publications.json")
 
 FIELDS = ["bibcode", "title", "author", "pub", "year", "identifier",
@@ -39,37 +38,27 @@ def citation(d):
     return d.get("pub", "")
 
 def fetch():
-    if not TOKEN:
-        print("ERROR: ADS_API_TOKEN environment variable not set.", file=sys.stderr)
-        sys.exit(1)
-
-    query = urllib.parse.urlencode({
-        "q": f"orcid:{ORCID}",
-        "fl": ",".join(FIELDS),
-        "sort": "date desc",
-        "rows": 200,
-    })
-    url = f"https://api.adsabs.harvard.edu/v1/search/query?{query}"
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {TOKEN}"})
-
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.load(resp)
-
-    docs = data.get("response", {}).get("docs", [])
+    query = (
+        Document
+        .select(*FIELDS)
+        .where(Document.orcid == ORCID)
+        .order_by(Document.date.desc(), Document.bibcode.desc())  # bibcode breaks same-month ties, as the site's search link does
+    )
+    docs = [paper.to_dict() for paper in query]
     if not docs:
-        sys.exit("ADS returned no papers; keeping the old publications.json")
+        sys.exit("SciX returned no papers; keeping the old publications.json")
     papers = []
     for d in docs:
         arxiv_id = next((i for i in d.get("identifier", []) if i.startswith("arXiv:")), None)
         papers.append({
-            "year": d.get("year"),
+            "year": str(d["year"]) if d.get("year") else None,  # scixplorer gives an int; the site expects the old string
             "title": (d.get("title") or [""])[0],
             "authors": d.get("author", [])[:12],
             "journal": citation(d),
             "doctype": d.get("doctype"),
             "me": my_index(d),
             "bibcode": d.get("bibcode"),
-            "adsUrl": f"https://ui.adsabs.harvard.edu/abs/{d.get('bibcode')}/abstract",
+            "adsUrl": f"https://scixplorer.org/abs/{d.get('bibcode')}/abstract",
             "arxivUrl": f"https://arxiv.org/abs/{arxiv_id.split(':', 1)[1]}" if arxiv_id else None,
         })
 
